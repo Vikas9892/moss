@@ -1,0 +1,31 @@
+{
+  "request": {
+    "method": "POST",
+    "path": "/tasks",
+    "headers": {
+      "Authorization": "<redacted>",
+      "Content-Type": "application/json"
+    },
+    "body": "<300236 raw bytes>"
+  },
+  "status": 413,
+  "ms": 694,
+  "resp_headers": {
+    "Content-Length": "178",
+    "content-type": "application/json",
+    "date": "Wed, 25 Nov 2026 15:36:03 GMT",
+    "server": "uvicorn",
+    "vary": "Origin",
+    "via": "1.1 Caddy, 1.1 google",
+    "x-moss-request-id": "13c3a9fedb1a4cbcacbe2e687d537df3",
+    "Alt-Svc": "clear"
+  },
+  "body": {
+    "error": {
+      "message": "The request body is larger than 262144 bytes",
+      "type": "invalid_request_error",
+      "code": "invalid_request_error",
+      "request_id": "13c3a9fedb1a4cbcacbe2e687d537df3"
+    }
+  }
+}

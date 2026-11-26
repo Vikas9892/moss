@@ -1,0 +1,67 @@
+{
+  "request": {
+    "method": "POST",
+    "path": "/chat/completions",
+    "headers": {
+      "Authorization": "<redacted>"
+    },
+    "body": {
+      "model": "anthropic/claude-haiku-5.5",
+      "messages": [
+        {
+          "role": "user",
+          "content": "hi"
+        }
+      ],
+      "max_tokens": 5,
+      "temperature": 1
+    }
+  },
+  "status": 200,
+  "ms": 1024,
+  "resp_headers": {
+    "Content-Length": "411",
+    "content-type": "application/json",
+    "date": "Wed, 25 Nov 2026 15:19:40 GMT",
+    "server": "uvicorn",
+    "vary": "Origin",
+    "via": "1.1 Caddy, 1.1 google",
+    "x-moss-request-id": "8e8992a5408a48088b279bfd85bf56dd",
+    "x-moss-retrieve-ms": "0.0",
+    "x-ratelimit-limit-requests": "300",
+    "x-ratelimit-limit-tokens": "1000000",
+    "x-ratelimit-remaining-requests": "49",
+    "x-ratelimit-remaining-tokens": "999985",
+    "x-ratelimit-reset-requests": "1s",
+    "x-ratelimit-reset-tokens": "1s",
+    "Alt-Svc": "clear"
+  },
+  "body": {
+    "id": "msg_011ChPsWAcycVDGL8JAGpu2j",
+    "object": "chat.completion",
+    "created": 1795619982,
+    "model": "anthropic/claude-haiku-5.5",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "Hi there!"
+        },
+        "finish_reason": "length"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 29,
+      "completion_tokens": 5,
+      "total_tokens": 34,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    }
+  }
+}

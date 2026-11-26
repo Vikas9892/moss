@@ -1,0 +1,77 @@
+{
+  "id": "task_b1bf4ddd7172486f975bccde6dcce8ec",
+  "object": "task",
+  "status": "completed",
+  "title": "Login and quote verification",
+  "goal": "Log in at quotes.toscrape.com/login with username 'test' and password 'test', then return the author of the first quote shown after logging in and whether a 'Logout' link is visible.",
+  "environment": {
+    "type": "browser",
+    "start_url": "https://quotes.toscrape.com/login"
+  },
+  "output_schema": {
+    "type": "object",
+    "required": [
+      "author",
+      "logout_visible"
+    ],
+    "properties": {
+      "author": {
+        "type": "string"
+      },
+      "logout_visible": {
+        "type": "boolean"
+      }
+    },
+    "additionalProperties": false
+  },
+  "limits": {
+    "max_cost_usd": 0.25,
+    "max_runtime_seconds": 300
+  },
+  "model": "moss-balanced",
+  "effort": "medium",
+  "metadata": null,
+  "byok": false,
+  "result": {
+    "output": {
+      "author": "Albert Einstein",
+      "logout_visible": true
+    },
+    "output_text": "{\"author\":\"Albert Einstein\",\"logout_visible\":true}"
+  },
+  "verification": {
+    "method": "output_schema",
+    "passed": true
+  },
+  "usage": {
+    "cost": {
+      "model_usd": 0.058811,
+      "total_usd": 0.059144,
+      "browser_usd": 0.0003333333333333333,
+      "traffic_usd": null
+    },
+    "steps": 4,
+    "cost_usd": 0.058811,
+    "model_calls": 5,
+    "input_tokens": 56851,
+    "output_tokens": 590,
+    "browser_minutes": 0.37,
+    "browser_seconds": 22,
+    "browser_traffic_mb": null,
+    "cached_input_tokens": 40658
+  },
+  "error": null,
+  "trace_available": true,
+  "video_available": true,
+  "video_state": "ready",
+  "live_url": null,
+  "cancel_requested": false,
+  "created_at": "2026-11-25T15:41:49.030061+00:00",
+  "started_at": "2026-11-25T15:41:49.039069+00:00",
+  "finished_at": "2026-11-25T15:42:11.904165+00:00",
+  "files_expire_at": "2026-12-02T15:42:11.904165+00:00",
+  "zero_data_retention": false,
+  "content_expires_at": null,
+  "content_deleted_at": null,
+  "webhook": null
+}

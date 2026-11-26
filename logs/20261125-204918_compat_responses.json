@@ -1,0 +1,81 @@
+{
+  "id": "resp_afb78667811047e28653dc87673e65e4",
+  "access_programs": null,
+  "created_at": 1795619956.0,
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "metadata": {},
+  "model": "moss/fastlane-1",
+  "object": "response",
+  "output": [
+    {
+      "id": "msg_afb78667811047e28653dc87673e65e4_0",
+      "content": [
+        {
+          "annotations": [],
+          "text": "pong",
+          "type": "output_text",
+          "logprobs": null
+        }
+      ],
+      "role": "assistant",
+      "status": "completed",
+      "type": "message",
+      "phase": null
+    }
+  ],
+  "parallel_tool_calls": true,
+  "temperature": null,
+  "tool_choice": "auto",
+  "tools": [],
+  "top_p": null,
+  "background": null,
+  "completed_at": null,
+  "conversation": null,
+  "image": null,
+  "input_transformations": null,
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "moderation": null,
+  "previous_response_id": null,
+  "prompt": null,
+  "prompt_cache_diagnostics": null,
+  "prompt_cache_key": null,
+  "prompt_cache_options": null,
+  "prompt_cache_retention": null,
+  "reasoning": {
+    "context": null,
+    "effort": null,
+    "generate_summary": null,
+    "mode": null,
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": null,
+  "status": "completed",
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": null
+  },
+  "tool_usage": null,
+  "top_logprobs": null,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 93,
+    "input_tokens_details": {
+      "cache_write_tokens": null,
+      "cached_tokens": 0,
+      "cache_write_tokens_details": null
+    },
+    "output_tokens": 2,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 95
+  },
+  "user": null,
+  "store": false
+}

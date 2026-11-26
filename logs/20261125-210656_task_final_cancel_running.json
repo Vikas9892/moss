@@ -1,0 +1,53 @@
+{
+  "id": "task_f0d75fbbc53c4712887655ef1b65f5c4",
+  "object": "task",
+  "status": "cancelled",
+  "title": "List book titles from books.toscrape.com",
+  "goal": "Browse books.toscrape.com and list every book title on the first 5 pages.",
+  "environment": {
+    "type": "browser",
+    "start_url": "https://example.com"
+  },
+  "output_schema": null,
+  "limits": {
+    "max_cost_usd": 0.25,
+    "max_runtime_seconds": 600
+  },
+  "model": "moss-fast",
+  "effort": "medium",
+  "metadata": null,
+  "byok": false,
+  "result": null,
+  "verification": null,
+  "usage": {
+    "cost": {
+      "model_usd": 0.006228,
+      "total_usd": 0.006561,
+      "browser_usd": 0.0003333333333333333,
+      "traffic_usd": null
+    },
+    "steps": 1,
+    "cost_usd": 0.006228,
+    "model_calls": 3,
+    "input_tokens": 6243,
+    "output_tokens": 661,
+    "browser_minutes": 0.31,
+    "browser_seconds": 18,
+    "browser_traffic_mb": null,
+    "cached_input_tokens": 0
+  },
+  "error": null,
+  "trace_available": true,
+  "video_available": false,
+  "video_state": "pending",
+  "live_url": null,
+  "cancel_requested": false,
+  "created_at": "2026-11-25T15:36:34.388582+00:00",
+  "started_at": "2026-11-25T15:36:34.403229+00:00",
+  "finished_at": "2026-11-25T15:36:53.387737+00:00",
+  "files_expire_at": "2026-12-02T15:36:53.387737+00:00",
+  "zero_data_retention": false,
+  "content_expires_at": null,
+  "content_deleted_at": null,
+  "webhook": null
+}

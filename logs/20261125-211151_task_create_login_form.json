@@ -1,0 +1,101 @@
+{
+  "request": {
+    "method": "POST",
+    "path": "/tasks",
+    "headers": {
+      "Authorization": "<redacted>"
+    },
+    "body": {
+      "goal": "Log in at quotes.toscrape.com/login with username 'test' and password 'test', then return the author of the first quote shown after logging in and whether a 'Logout' link is visible.",
+      "environment": {
+        "type": "browser",
+        "start_url": "https://quotes.toscrape.com/login"
+      },
+      "model": "moss-balanced",
+      "limits": {
+        "max_runtime_seconds": 300,
+        "max_cost_usd": 0.25
+      },
+      "output_schema": {
+        "type": "object",
+        "properties": {
+          "author": {
+            "type": "string"
+          },
+          "logout_visible": {
+            "type": "boolean"
+          }
+        },
+        "required": [
+          "author",
+          "logout_visible"
+        ],
+        "additionalProperties": false
+      }
+    }
+  },
+  "status": 202,
+  "ms": 743,
+  "resp_headers": {
+    "Content-Length": "1045",
+    "content-type": "application/json",
+    "date": "Wed, 25 Nov 2026 15:41:48 GMT",
+    "server": "uvicorn",
+    "vary": "Origin",
+    "via": "1.1 Caddy, 1.1 google",
+    "x-moss-request-id": "9bcae07138974a19aa8f02d0a80e6de7",
+    "Alt-Svc": "clear"
+  },
+  "body": {
+    "id": "task_b1bf4ddd7172486f975bccde6dcce8ec",
+    "object": "task",
+    "status": "queued",
+    "title": null,
+    "goal": "Log in at quotes.toscrape.com/login with username 'test' and password 'test', then return the author of the first quote shown after logging in and whether a 'Logout' link is visible.",
+    "environment": {
+      "type": "browser",
+      "start_url": "https://quotes.toscrape.com/login"
+    },
+    "output_schema": {
+      "type": "object",
+      "required": [
+        "author",
+        "logout_visible"
+      ],
+      "properties": {
+        "author": {
+          "type": "string"
+        },
+        "logout_visible": {
+          "type": "boolean"
+        }
+      },
+      "additionalProperties": false
+    },
+    "limits": {
+      "max_cost_usd": 0.25,
+      "max_runtime_seconds": 300
+    },
+    "model": "moss-balanced",
+    "effort": "medium",
+    "metadata": null,
+    "byok": false,
+    "result": null,
+    "verification": null,
+    "usage": null,
+    "error": null,
+    "trace_available": false,
+    "video_available": false,
+    "video_state": null,
+    "live_url": null,
+    "cancel_requested": false,
+    "created_at": "2026-11-25T15:41:49.030061+00:00",
+    "started_at": null,
+    "finished_at": null,
+    "files_expire_at": null,
+    "zero_data_retention": false,
+    "content_expires_at": null,
+    "content_deleted_at": null,
+    "webhook": null
+  }
+}

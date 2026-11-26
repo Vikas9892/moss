@@ -1,0 +1,54 @@
+{
+  "request": {
+    "method": "POST",
+    "path": "/chat/completions",
+    "headers": {
+      "Authorization": "<redacted>"
+    },
+    "body": {
+      "model": "moss/fastlane-1",
+      "messages": [
+        {
+          "role": "user",
+          "content": [
+            {
+              "type": "image_url",
+              "image_url": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/4/47/PNG_transparency_demonstration_1.png"
+              }
+            }
+          ]
+        }
+      ],
+      "max_tokens": 5
+    }
+  },
+  "status": 400,
+  "ms": 388,
+  "resp_headers": {
+    "Content-Length": "201",
+    "content-type": "application/json",
+    "date": "Wed, 25 Nov 2026 15:19:38 GMT",
+    "server": "uvicorn",
+    "vary": "Origin, Origin",
+    "via": "1.1 Caddy,1.1 Caddy, 1.1 google",
+    "x-moss-box": "g2a0e48",
+    "x-moss-request-id": "b71ccda329394e8592a3f550a554771e",
+    "x-moss-retrieve-ms": "0.0",
+    "x-ratelimit-limit-requests": "120",
+    "x-ratelimit-limit-tokens": "600000",
+    "x-ratelimit-remaining-requests": "9",
+    "x-ratelimit-remaining-tokens": "599870",
+    "x-ratelimit-reset-requests": "1s",
+    "x-ratelimit-reset-tokens": "1s",
+    "Alt-Svc": "clear"
+  },
+  "body": {
+    "error": {
+      "message": "At most 0 image(s) may be provided in one prompt. (parameter=image)",
+      "type": "invalid_request_error",
+      "code": "invalid_request_error",
+      "request_id": "b71ccda329394e8592a3f550a554771e"
+    }
+  }
+}

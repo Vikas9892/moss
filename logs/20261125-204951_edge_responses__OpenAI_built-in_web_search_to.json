@@ -1,0 +1,40 @@
+{
+  "request": {
+    "method": "POST",
+    "path": "/responses",
+    "headers": {
+      "Authorization": "<redacted>"
+    },
+    "body": {
+      "model": "moss/fastlane-1",
+      "input": "hi",
+      "tools": [
+        {
+          "type": "web_search"
+        }
+      ]
+    }
+  },
+  "status": 400,
+  "ms": 416,
+  "resp_headers": {
+    "Content-Length": "178",
+    "content-type": "application/json",
+    "date": "Wed, 25 Nov 2026 15:19:48 GMT",
+    "server": "uvicorn",
+    "vary": "Origin, Origin",
+    "via": "1.1 Caddy,1.1 Caddy,1.1 Caddy, 1.1 google",
+    "x-envoy-upstream-service-time": "1",
+    "x-moss-box": "gin001",
+    "x-moss-request-id": "77a2c08e92bf4dfaa086385c09d7d291",
+    "Alt-Svc": "clear"
+  },
+  "body": {
+    "error": {
+      "message": "tools[0] of type web_search is not supported",
+      "type": "invalid_request_error",
+      "code": "unsupported_parameter",
+      "request_id": "77a2c08e92bf4dfaa086385c09d7d291"
+    }
+  }
+}

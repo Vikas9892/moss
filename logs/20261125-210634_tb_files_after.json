@@ -1,0 +1,35 @@
+{
+  "request": {
+    "method": "GET",
+    "path": "/tasks/task_0d27c7b0089a48cda40574cadd352415/files",
+    "headers": {
+      "Authorization": "<redacted>"
+    },
+    "body": null
+  },
+  "status": 200,
+  "ms": 776,
+  "resp_headers": {
+    "Content-Length": "150",
+    "content-type": "application/json",
+    "date": "Wed, 25 Nov 2026 15:36:31 GMT",
+    "server": "uvicorn",
+    "vary": "Origin",
+    "via": "1.1 Caddy, 1.1 google",
+    "x-moss-request-id": "a992d044127c4fc2a6ac68a0a032c9b8",
+    "Alt-Svc": "clear"
+  },
+  "body": {
+    "object": "list",
+    "data": [
+      {
+        "path": "screenshots/runner/00001-step-2.png",
+        "bytes": 290288
+      },
+      {
+        "path": "screenshots/runner/00002-step-4.png",
+        "bytes": 290288
+      }
+    ]
+  }
+}

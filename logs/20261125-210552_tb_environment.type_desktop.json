@@ -1,0 +1,40 @@
+{
+  "request": {
+    "method": "POST",
+    "path": "/tasks",
+    "headers": {
+      "Authorization": "<redacted>"
+    },
+    "body": {
+      "goal": "Open example.com and return the main heading.",
+      "environment": {
+        "type": "desktop"
+      },
+      "model": "moss-fast",
+      "limits": {
+        "max_runtime_seconds": 120,
+        "max_cost_usd": 0.05
+      }
+    }
+  },
+  "status": 400,
+  "ms": 727,
+  "resp_headers": {
+    "Content-Length": "205",
+    "content-type": "application/json",
+    "date": "Wed, 25 Nov 2026 15:35:49 GMT",
+    "server": "uvicorn",
+    "vary": "Origin",
+    "via": "1.1 Caddy, 1.1 google",
+    "x-moss-request-id": "0414d2a4615b4ecc97ed489810e693d0",
+    "Alt-Svc": "clear"
+  },
+  "body": {
+    "error": {
+      "message": "environment must be {\"type\": \"browser\"}; v0 runs browser tasks only",
+      "type": "invalid_request_error",
+      "code": "invalid_request_error",
+      "request_id": "0414d2a4615b4ecc97ed489810e693d0"
+    }
+  }
+}

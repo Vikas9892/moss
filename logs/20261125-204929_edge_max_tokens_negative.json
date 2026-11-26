@@ -1,0 +1,47 @@
+{
+  "request": {
+    "method": "POST",
+    "path": "/chat/completions",
+    "headers": {
+      "Authorization": "<redacted>"
+    },
+    "body": {
+      "model": "moss/fastlane-1",
+      "messages": [
+        {
+          "role": "user",
+          "content": "hi"
+        }
+      ],
+      "max_tokens": -5
+    }
+  },
+  "status": 400,
+  "ms": 388,
+  "resp_headers": {
+    "Content-Length": "205",
+    "content-type": "application/json",
+    "date": "Wed, 25 Nov 2026 15:19:26 GMT",
+    "server": "uvicorn",
+    "vary": "Origin, Origin",
+    "via": "1.1 Caddy,1.1 Caddy, 1.1 google",
+    "x-moss-box": "g2a0e48",
+    "x-moss-request-id": "5bcda7c4992a491f842d04f8b8a2a37e",
+    "x-moss-retrieve-ms": "0.0",
+    "x-ratelimit-limit-requests": "120",
+    "x-ratelimit-limit-tokens": "600000",
+    "x-ratelimit-remaining-requests": "8",
+    "x-ratelimit-remaining-tokens": "599904",
+    "x-ratelimit-reset-requests": "1s",
+    "x-ratelimit-reset-tokens": "1s",
+    "Alt-Svc": "clear"
+  },
+  "body": {
+    "error": {
+      "message": "max_tokens must be at least 1, got -5. (parameter=max_tokens, value=-5)",
+      "type": "invalid_request_error",
+      "code": "invalid_request_error",
+      "request_id": "5bcda7c4992a491f842d04f8b8a2a37e"
+    }
+  }
+}

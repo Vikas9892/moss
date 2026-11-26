@@ -1,0 +1,41 @@
+{
+  "request": {
+    "method": "POST",
+    "path": "/chat/completions",
+    "headers": {
+      "Authorization": "<redacted>"
+    },
+    "body": {
+      "model": "moss/fastlane-1",
+      "messages": [
+        {
+          "role": "user",
+          "content": "hi"
+        }
+      ],
+      "max_tokens": 5
+    }
+  },
+  "status": 401,
+  "ms": 460,
+  "resp_headers": {
+    "Content-Length": "166",
+    "content-type": "application/json",
+    "date": "Wed, 25 Nov 2026 15:19:34 GMT",
+    "server": "uvicorn",
+    "vary": "Origin, Origin",
+    "via": "1.1 Caddy,1.1 Caddy,1.1 Caddy, 1.1 google",
+    "x-envoy-upstream-service-time": "1",
+    "x-moss-box": "gin001",
+    "x-moss-request-id": "52ef96eb29fa480ca02948c5bd013bcf",
+    "Alt-Svc": "clear"
+  },
+  "body": {
+    "error": {
+      "message": "Send Bearer project_id:project_key",
+      "type": "authentication_error",
+      "code": "authentication_error",
+      "request_id": "52ef96eb29fa480ca02948c5bd013bcf"
+    }
+  }
+}

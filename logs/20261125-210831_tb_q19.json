@@ -1,0 +1,70 @@
+{
+  "request": {
+    "method": "POST",
+    "path": "/tasks",
+    "headers": {
+      "Authorization": "<redacted>"
+    },
+    "body": {
+      "goal": "Open example.com and return the main heading.",
+      "environment": {
+        "type": "browser",
+        "start_url": "https://example.com"
+      },
+      "model": "moss-fast",
+      "limits": {
+        "max_runtime_seconds": 60,
+        "max_cost_usd": 0.01
+      }
+    }
+  },
+  "status": 202,
+  "ms": 707,
+  "resp_headers": {
+    "Content-Length": "730",
+    "content-type": "application/json",
+    "date": "Wed, 25 Nov 2026 15:38:27 GMT",
+    "server": "uvicorn",
+    "vary": "Origin",
+    "via": "1.1 Caddy, 1.1 google",
+    "x-moss-request-id": "3a66f550bde34b9eb2fd88f8aa238c45",
+    "Alt-Svc": "clear"
+  },
+  "body": {
+    "id": "task_b1d5e3bad92f48b196851b6169ad883d",
+    "object": "task",
+    "status": "queued",
+    "title": null,
+    "goal": "Open example.com and return the main heading.",
+    "environment": {
+      "type": "browser",
+      "start_url": "https://example.com"
+    },
+    "output_schema": null,
+    "limits": {
+      "max_cost_usd": 0.01,
+      "max_runtime_seconds": 60
+    },
+    "model": "moss-fast",
+    "effort": "medium",
+    "metadata": null,
+    "byok": false,
+    "result": null,
+    "verification": null,
+    "usage": null,
+    "error": null,
+    "trace_available": false,
+    "video_available": false,
+    "video_state": null,
+    "live_url": null,
+    "cancel_requested": false,
+    "created_at": "2026-11-25T15:38:28.778977+00:00",
+    "started_at": null,
+    "finished_at": null,
+    "files_expire_at": null,
+    "zero_data_retention": false,
+    "content_expires_at": null,
+    "content_deleted_at": null,
+    "webhook": null
+  }
+}

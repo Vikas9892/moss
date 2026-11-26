@@ -1,0 +1,49 @@
+{
+  "request": {
+    "method": "POST",
+    "path": "/tasks",
+    "headers": {
+      "Authorization": "<redacted>"
+    },
+    "body": {
+      "goal": "Open example.com and return the main heading.",
+      "environment": {
+        "type": "browser",
+        "start_url": "https://example.com"
+      },
+      "model": "moss-fast",
+      "limits": {
+        "max_runtime_seconds": 120,
+        "max_cost_usd": 0.05
+      },
+      "output_schema": {
+        "type": "object",
+        "properties": {
+          "a": {
+            "type": "banana"
+          }
+        }
+      }
+    }
+  },
+  "status": 400,
+  "ms": 1528,
+  "resp_headers": {
+    "Content-Length": "253",
+    "content-type": "application/json",
+    "date": "Wed, 25 Nov 2026 15:36:01 GMT",
+    "server": "uvicorn",
+    "vary": "Origin",
+    "via": "1.1 Caddy, 1.1 google",
+    "x-moss-request-id": "c2af5bfda2cc45a5bcb8681ab715563c",
+    "Alt-Svc": "clear"
+  },
+  "body": {
+    "error": {
+      "message": "output_schema.properties.a.type must be one of object, array, string, boolean, null, integer, number, or a list of them",
+      "type": "invalid_request_error",
+      "code": "invalid_request_error",
+      "request_id": "c2af5bfda2cc45a5bcb8681ab715563c"
+    }
+  }
+}

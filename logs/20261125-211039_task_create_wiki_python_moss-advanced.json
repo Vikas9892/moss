@@ -1,0 +1,101 @@
+{
+  "request": {
+    "method": "POST",
+    "path": "/tasks",
+    "headers": {
+      "Authorization": "<redacted>"
+    },
+    "body": {
+      "goal": "Open the Wikipedia article for the Python programming language and report who designed it and the year it first appeared.",
+      "environment": {
+        "type": "browser",
+        "start_url": "https://en.wikipedia.org/wiki/Python_(programming_language)"
+      },
+      "model": "moss-advanced",
+      "limits": {
+        "max_runtime_seconds": 300,
+        "max_cost_usd": 0.25
+      },
+      "output_schema": {
+        "type": "object",
+        "properties": {
+          "designer": {
+            "type": "string"
+          },
+          "first_appeared_year": {
+            "type": "integer"
+          }
+        },
+        "required": [
+          "designer",
+          "first_appeared_year"
+        ],
+        "additionalProperties": false
+      }
+    }
+  },
+  "status": 202,
+  "ms": 1723,
+  "resp_headers": {
+    "Content-Length": "1024",
+    "content-type": "application/json",
+    "date": "Wed, 25 Nov 2026 15:40:36 GMT",
+    "server": "uvicorn",
+    "vary": "Origin",
+    "via": "1.1 Caddy, 1.1 google",
+    "x-moss-request-id": "163a8a7817844032ac0f4e597a973e6d",
+    "Alt-Svc": "clear"
+  },
+  "body": {
+    "id": "task_08bf1842c984441eb78a5bdfb43d43ba",
+    "object": "task",
+    "status": "queued",
+    "title": null,
+    "goal": "Open the Wikipedia article for the Python programming language and report who designed it and the year it first appeared.",
+    "environment": {
+      "type": "browser",
+      "start_url": "https://en.wikipedia.org/wiki/Python_(programming_language)"
+    },
+    "output_schema": {
+      "type": "object",
+      "required": [
+        "designer",
+        "first_appeared_year"
+      ],
+      "properties": {
+        "designer": {
+          "type": "string"
+        },
+        "first_appeared_year": {
+          "type": "integer"
+        }
+      },
+      "additionalProperties": false
+    },
+    "limits": {
+      "max_cost_usd": 0.25,
+      "max_runtime_seconds": 300
+    },
+    "model": "moss-advanced",
+    "effort": "medium",
+    "metadata": null,
+    "byok": false,
+    "result": null,
+    "verification": null,
+    "usage": null,
+    "error": null,
+    "trace_available": false,
+    "video_available": false,
+    "video_state": null,
+    "live_url": null,
+    "cancel_requested": false,
+    "created_at": "2026-11-25T15:40:37.253117+00:00",
+    "started_at": null,
+    "finished_at": null,
+    "files_expire_at": null,
+    "zero_data_retention": false,
+    "content_expires_at": null,
+    "content_deleted_at": null,
+    "webhook": null
+  }
+}

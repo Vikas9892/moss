@@ -1,0 +1,40 @@
+{
+  "request": {
+    "method": "POST",
+    "path": "/chat/completions",
+    "headers": {
+      "Authorization": "<redacted>"
+    },
+    "body": {
+      "model": "moss/fastlane-1",
+      "messages": [
+        {
+          "role": "user",
+          "content": "hi"
+        }
+      ],
+      "max_tokens": 5
+    }
+  },
+  "status": 401,
+  "ms": 1231,
+  "resp_headers": {
+    "Content-Length": "169",
+    "content-type": "application/json",
+    "date": "Wed, 25 Nov 2026 15:19:33 GMT",
+    "server": "uvicorn",
+    "vary": "Origin, Origin",
+    "via": "1.1 Caddy,1.1 Caddy, 1.1 google",
+    "x-moss-box": "g2a0e48",
+    "x-moss-request-id": "7d774d89b99842c98c5d5e0df4513d33",
+    "Alt-Svc": "clear"
+  },
+  "body": {
+    "error": {
+      "message": "The project credentials were rejected",
+      "type": "authentication_error",
+      "code": "authentication_error",
+      "request_id": "7d774d89b99842c98c5d5e0df4513d33"
+    }
+  }
+}

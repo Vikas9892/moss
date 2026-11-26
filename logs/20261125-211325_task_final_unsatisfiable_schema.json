@@ -1,0 +1,76 @@
+{
+  "id": "task_b6b737dcfdc24a13a51f1c6f4340f4f4",
+  "object": "task",
+  "status": "completed",
+  "title": "Fetch main heading from example.com",
+  "goal": "Open example.com and return the page's main heading.",
+  "environment": {
+    "type": "browser",
+    "start_url": "https://example.com"
+  },
+  "output_schema": {
+    "type": "object",
+    "required": [
+      "heading"
+    ],
+    "properties": {
+      "heading": {
+        "type": "integer",
+        "maximum": 10,
+        "minimum": 100
+      }
+    }
+  },
+  "limits": {
+    "max_cost_usd": 0.25,
+    "max_runtime_seconds": 180
+  },
+  "model": "moss-fast",
+  "effort": "medium",
+  "metadata": null,
+  "byok": false,
+  "result": {
+    "output": {
+      "heading": "Example Domain"
+    },
+    "output_text": "{\"heading\":\"Example Domain\"}"
+  },
+  "verification": {
+    "method": "output_schema",
+    "passed": false,
+    "problems": [
+      "$.heading: expected integer"
+    ]
+  },
+  "usage": {
+    "cost": {
+      "model_usd": 0.007347,
+      "total_usd": 0.00768,
+      "browser_usd": 0.0003333333333333333,
+      "traffic_usd": null
+    },
+    "steps": 5,
+    "cost_usd": 0.007347,
+    "model_calls": 6,
+    "input_tokens": 42595,
+    "output_tokens": 1475,
+    "browser_minutes": 0.6,
+    "browser_seconds": 36,
+    "browser_traffic_mb": null,
+    "cached_input_tokens": 30962
+  },
+  "error": null,
+  "trace_available": true,
+  "video_available": true,
+  "video_state": "ready",
+  "live_url": null,
+  "cancel_requested": false,
+  "created_at": "2026-11-25T15:42:41.694288+00:00",
+  "started_at": "2026-11-25T15:42:41.715116+00:00",
+  "finished_at": "2026-11-25T15:43:18.396554+00:00",
+  "files_expire_at": "2026-12-02T15:43:18.396554+00:00",
+  "zero_data_retention": false,
+  "content_expires_at": null,
+  "content_deleted_at": null,
+  "webhook": null
+}

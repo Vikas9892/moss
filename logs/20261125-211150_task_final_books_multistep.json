@@ -1,0 +1,101 @@
+{
+  "id": "task_442f40a2a715422e909359dfc22b04c1",
+  "object": "task",
+  "status": "completed",
+  "title": "Scrape Travel Book Titles",
+  "goal": "On books.toscrape.com, open the 'Travel' category and return the titles and prices of the first 3 books listed.",
+  "environment": {
+    "type": "browser",
+    "start_url": "https://books.toscrape.com"
+  },
+  "output_schema": {
+    "type": "object",
+    "required": [
+      "books"
+    ],
+    "properties": {
+      "books": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "required": [
+            "title",
+            "price"
+          ],
+          "properties": {
+            "price": {
+              "type": "string"
+            },
+            "title": {
+              "type": "string"
+            }
+          },
+          "additionalProperties": false
+        }
+      }
+    },
+    "additionalProperties": false
+  },
+  "limits": {
+    "max_cost_usd": 0.25,
+    "max_runtime_seconds": 300
+  },
+  "model": "moss-balanced",
+  "effort": "medium",
+  "metadata": null,
+  "byok": false,
+  "result": {
+    "output": {
+      "books": [
+        {
+          "price": "\u00a345.17",
+          "title": "It's Only the Himalayas"
+        },
+        {
+          "price": "\u00a349.43",
+          "title": "Full Moon over Noah\u2019s Ark: An Odyssey to Mount Ararat and Beyond"
+        },
+        {
+          "price": "\u00a348.87",
+          "title": "See America: A Celebration of Our National Parks & Treasured Sites"
+        }
+      ]
+    },
+    "output_text": "{\"books\":[{\"title\":\"It's Only the Himalayas\",\"price\":\"\u00a345.17\"},{\"title\":\"Full Moon over Noah\u2019s Ark: An Odyssey to Mount Ararat and Beyond\",\"price\":\"\u00a349.43\"},{\"title\":\"See America: A Celebration of Our National Parks & Treasured Sites\",\"price\":\"\u00a348.87\"}]}"
+  },
+  "verification": {
+    "method": "output_schema",
+    "passed": true
+  },
+  "usage": {
+    "cost": {
+      "model_usd": 0.060798,
+      "total_usd": 0.061131,
+      "browser_usd": 0.0003333333333333333,
+      "traffic_usd": null
+    },
+    "steps": 4,
+    "cost_usd": 0.060798,
+    "model_calls": 5,
+    "input_tokens": 57392,
+    "output_tokens": 670,
+    "browser_minutes": 0.68,
+    "browser_seconds": 41,
+    "browser_traffic_mb": null,
+    "cached_input_tokens": 40861
+  },
+  "error": null,
+  "trace_available": true,
+  "video_available": true,
+  "video_state": "ready",
+  "live_url": null,
+  "cancel_requested": false,
+  "created_at": "2026-11-25T15:41:02.922695+00:00",
+  "started_at": "2026-11-25T15:41:02.938075+00:00",
+  "finished_at": "2026-11-25T15:41:44.597927+00:00",
+  "files_expire_at": "2026-12-02T15:41:44.597927+00:00",
+  "zero_data_retention": false,
+  "content_expires_at": null,
+  "content_deleted_at": null,
+  "webhook": null
+}

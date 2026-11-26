@@ -1,0 +1,36 @@
+{
+  "request": {
+    "method": "POST",
+    "path": "/responses",
+    "headers": {
+      "Authorization": "<redacted>"
+    },
+    "body": {
+      "model": "moss/fastlane-1",
+      "input": "hi",
+      "previous_response_id": "resp_123"
+    }
+  },
+  "status": 400,
+  "ms": 409,
+  "resp_headers": {
+    "Content-Length": "210",
+    "content-type": "application/json",
+    "date": "Wed, 25 Nov 2026 15:19:47 GMT",
+    "server": "uvicorn",
+    "vary": "Origin, Origin",
+    "via": "1.1 Caddy,1.1 Caddy,1.1 Caddy, 1.1 google",
+    "x-envoy-upstream-service-time": "1",
+    "x-moss-box": "gin001",
+    "x-moss-request-id": "dc07a260b8b24106a6857db81d0710d0",
+    "Alt-Svc": "clear"
+  },
+  "body": {
+    "error": {
+      "message": "previous_response_id is not supported. Send the whole conversation in input.",
+      "type": "invalid_request_error",
+      "code": "unsupported_parameter",
+      "request_id": "dc07a260b8b24106a6857db81d0710d0"
+    }
+  }
+}

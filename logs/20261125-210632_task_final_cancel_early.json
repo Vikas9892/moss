@@ -1,0 +1,53 @@
+{
+  "id": "task_0d27c7b0089a48cda40574cadd352415",
+  "object": "task",
+  "status": "cancelled",
+  "title": "Fetch main heading from example.com",
+  "goal": "Open example.com and return the main heading.",
+  "environment": {
+    "type": "browser",
+    "start_url": "https://example.com"
+  },
+  "output_schema": null,
+  "limits": {
+    "max_cost_usd": 0.05,
+    "max_runtime_seconds": 120
+  },
+  "model": "moss-fast",
+  "effort": "medium",
+  "metadata": null,
+  "byok": false,
+  "result": null,
+  "verification": null,
+  "usage": {
+    "cost": {
+      "model_usd": 0.003685,
+      "total_usd": 0.004018,
+      "browser_usd": 0.0003333333333333333,
+      "traffic_usd": null
+    },
+    "steps": 2,
+    "cost_usd": 0.003685,
+    "model_calls": 4,
+    "input_tokens": 11070,
+    "output_tokens": 483,
+    "browser_minutes": 0.31,
+    "browser_seconds": 18,
+    "browser_traffic_mb": null,
+    "cached_input_tokens": 4005
+  },
+  "error": null,
+  "trace_available": true,
+  "video_available": true,
+  "video_state": "ready",
+  "live_url": null,
+  "cancel_requested": false,
+  "created_at": "2026-11-25T15:36:07.670744+00:00",
+  "started_at": "2026-11-25T15:36:07.689110+00:00",
+  "finished_at": "2026-11-25T15:36:26.803924+00:00",
+  "files_expire_at": "2026-12-02T15:36:26.803924+00:00",
+  "zero_data_retention": false,
+  "content_expires_at": null,
+  "content_deleted_at": null,
+  "webhook": null
+}

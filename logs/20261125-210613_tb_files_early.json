@@ -1,0 +1,30 @@
+{
+  "request": {
+    "method": "GET",
+    "path": "/tasks/task_0d27c7b0089a48cda40574cadd352415/files",
+    "headers": {
+      "Authorization": "<redacted>"
+    },
+    "body": null
+  },
+  "status": 409,
+  "ms": 649,
+  "resp_headers": {
+    "Content-Length": "178",
+    "content-type": "application/json",
+    "date": "Wed, 25 Nov 2026 15:36:11 GMT",
+    "server": "uvicorn",
+    "vary": "Origin",
+    "via": "1.1 Caddy, 1.1 google",
+    "x-moss-request-id": "6b630ce3101440b7be52d9a66350e311",
+    "Alt-Svc": "clear"
+  },
+  "body": {
+    "error": {
+      "message": "The task's files are served once it has finished",
+      "type": "invalid_request_error",
+      "code": "task_not_finished",
+      "request_id": "6b630ce3101440b7be52d9a66350e311"
+    }
+  }
+}

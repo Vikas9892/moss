@@ -1,0 +1,42 @@
+{
+  "request": {
+    "method": "POST",
+    "path": "/chat/completions",
+    "headers": {
+      "Authorization": "<redacted>",
+      "X-Moss-Indexes": "i0,i1,i2,i3,i4,i5,i6,i7,i8,i9,i10,i11,i12,i13,i14,i15,i16,i17,i18,i19,i20,i21,i22,i23,i24,i25,i26,i27,i28,i29,i30,i31,i32"
+    },
+    "body": {
+      "model": "moss/fastlane-1",
+      "messages": [
+        {
+          "role": "user",
+          "content": "hi"
+        }
+      ],
+      "max_tokens": 5
+    }
+  },
+  "status": 403,
+  "ms": 854,
+  "resp_headers": {
+    "Content-Length": "174",
+    "content-type": "application/json",
+    "date": "Wed, 25 Nov 2026 15:19:43 GMT",
+    "server": "uvicorn",
+    "vary": "Origin, Origin",
+    "via": "1.1 Caddy,1.1 Caddy,1.1 Caddy, 1.1 google",
+    "x-envoy-upstream-service-time": "383",
+    "x-moss-box": "gin001",
+    "x-moss-request-id": "c90fff7e161845b1ae354f3ba74e609a",
+    "Alt-Svc": "clear"
+  },
+  "body": {
+    "error": {
+      "message": "X-Moss-Indexes names an index outside this project",
+      "type": "permission_error",
+      "code": "permission_error",
+      "request_id": "c90fff7e161845b1ae354f3ba74e609a"
+    }
+  }
+}

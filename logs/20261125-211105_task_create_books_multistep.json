@@ -1,0 +1,125 @@
+{
+  "request": {
+    "method": "POST",
+    "path": "/tasks",
+    "headers": {
+      "Authorization": "<redacted>"
+    },
+    "body": {
+      "goal": "On books.toscrape.com, open the 'Travel' category and return the titles and prices of the first 3 books listed.",
+      "environment": {
+        "type": "browser",
+        "start_url": "https://books.toscrape.com"
+      },
+      "model": "moss-balanced",
+      "limits": {
+        "max_runtime_seconds": 300,
+        "max_cost_usd": 0.25
+      },
+      "output_schema": {
+        "type": "object",
+        "properties": {
+          "books": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "title": {
+                  "type": "string"
+                },
+                "price": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "title",
+                "price"
+              ],
+              "additionalProperties": false
+            }
+          }
+        },
+        "required": [
+          "books"
+        ],
+        "additionalProperties": false
+      }
+    }
+  },
+  "status": 202,
+  "ms": 691,
+  "resp_headers": {
+    "Content-Length": "1062",
+    "content-type": "application/json",
+    "date": "Wed, 25 Nov 2026 15:41:02 GMT",
+    "server": "uvicorn",
+    "vary": "Origin",
+    "via": "1.1 Caddy, 1.1 google",
+    "x-moss-request-id": "b92fbd55ac794455b47fcf42d305385a",
+    "Alt-Svc": "clear"
+  },
+  "body": {
+    "id": "task_442f40a2a715422e909359dfc22b04c1",
+    "object": "task",
+    "status": "queued",
+    "title": null,
+    "goal": "On books.toscrape.com, open the 'Travel' category and return the titles and prices of the first 3 books listed.",
+    "environment": {
+      "type": "browser",
+      "start_url": "https://books.toscrape.com"
+    },
+    "output_schema": {
+      "type": "object",
+      "required": [
+        "books"
+      ],
+      "properties": {
+        "books": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": [
+              "title",
+              "price"
+            ],
+            "properties": {
+              "price": {
+                "type": "string"
+              },
+              "title": {
+                "type": "string"
+              }
+            },
+            "additionalProperties": false
+          }
+        }
+      },
+      "additionalProperties": false
+    },
+    "limits": {
+      "max_cost_usd": 0.25,
+      "max_runtime_seconds": 300
+    },
+    "model": "moss-balanced",
+    "effort": "medium",
+    "metadata": null,
+    "byok": false,
+    "result": null,
+    "verification": null,
+    "usage": null,
+    "error": null,
+    "trace_available": false,
+    "video_available": false,
+    "video_state": null,
+    "live_url": null,
+    "cancel_requested": false,
+    "created_at": "2026-11-25T15:41:02.922695+00:00",
+    "started_at": null,
+    "finished_at": null,
+    "files_expire_at": null,
+    "zero_data_retention": false,
+    "content_expires_at": null,
+    "content_deleted_at": null,
+    "webhook": null
+  }
+}

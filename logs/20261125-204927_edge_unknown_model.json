@@ -1,0 +1,41 @@
+{
+  "request": {
+    "method": "POST",
+    "path": "/chat/completions",
+    "headers": {
+      "Authorization": "<redacted>"
+    },
+    "body": {
+      "model": "moss/nope-9",
+      "messages": [
+        {
+          "role": "user",
+          "content": "hi"
+        }
+      ],
+      "max_tokens": 5
+    }
+  },
+  "status": 400,
+  "ms": 449,
+  "resp_headers": {
+    "Content-Length": "247",
+    "content-type": "application/json",
+    "date": "Wed, 25 Nov 2026 15:19:24 GMT",
+    "server": "uvicorn",
+    "vary": "Origin, Origin",
+    "via": "1.1 Caddy,1.1 Caddy,1.1 Caddy, 1.1 google",
+    "x-envoy-upstream-service-time": "1",
+    "x-moss-box": "gin001",
+    "x-moss-request-id": "ab5beea36ab947e28218b6b8bb617a5a",
+    "Alt-Svc": "clear"
+  },
+  "body": {
+    "error": {
+      "message": "Unknown model moss/nope-9. Send model moss/fastlane-1, or a vendor model name with your own key in X-Moss-Provider-Key.",
+      "type": "invalid_request_error",
+      "code": "model_not_found",
+      "request_id": "ab5beea36ab947e28218b6b8bb617a5a"
+    }
+  }
+}

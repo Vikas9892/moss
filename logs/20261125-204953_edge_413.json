@@ -1,0 +1,7 @@
+{
+  "request": {
+    "method": "POST",
+    "path": "/chat/completions"
+  },
+  "exception": "ConnectionError(ProtocolError('Connection aborted.', ConnectionAbortedError(10053, 'An established connection was aborted by the software in your host machine', None, 10053, None)))"
+}

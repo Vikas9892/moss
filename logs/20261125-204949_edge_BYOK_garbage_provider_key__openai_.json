@@ -1,0 +1,47 @@
+{
+  "request": {
+    "method": "POST",
+    "path": "/chat/completions",
+    "headers": {
+      "Authorization": "<redacted>",
+      "X-Moss-Provider-Key": "<redacted>"
+    },
+    "body": {
+      "model": "openai/gpt-6-luna",
+      "messages": [
+        {
+          "role": "user",
+          "content": "hi"
+        }
+      ],
+      "max_tokens": 5
+    }
+  },
+  "status": 401,
+  "ms": 1083,
+  "resp_headers": {
+    "Content-Length": "272",
+    "content-type": "application/json",
+    "date": "Wed, 25 Nov 2026 15:19:45 GMT",
+    "server": "uvicorn",
+    "vary": "Origin",
+    "via": "1.1 Caddy, 1.1 google",
+    "x-moss-request-id": "d47e35b475de41de9ebcac9ac27bcf8d",
+    "x-moss-retrieve-ms": "0.0",
+    "x-ratelimit-limit-requests": "300",
+    "x-ratelimit-limit-tokens": "1000000",
+    "x-ratelimit-remaining-requests": "49",
+    "x-ratelimit-remaining-tokens": "999985",
+    "x-ratelimit-reset-requests": "1s",
+    "x-ratelimit-reset-tokens": "1s",
+    "Alt-Svc": "clear"
+  },
+  "body": {
+    "error": {
+      "message": "The model rejected the prompt: HTTP 401: Incorrect API key provided: sk-garbage. You can find your API key at https://platform.openai.com/account/api-keys.",
+      "type": "model_error",
+      "code": "upstream_error",
+      "request_id": "d47e35b475de41de9ebcac9ac27bcf8d"
+    }
+  }
+}

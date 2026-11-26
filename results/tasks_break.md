@@ -1,0 +1,38 @@
+## Tasks API: breaking it
+| test | expected | actual |  | note |
+|---|---|---|---|---|
+| validation: missing goal | 400 | 400 invalid_request_error | ok | goal must be text of 1 to 20000 characters |
+| validation: empty goal | 400 | 400 invalid_request_error | ok | goal must be text of 1 to 20000 characters |
+| validation: goal 20,001 chars | 400 | 400 invalid_request_error | ok | goal must be text of 1 to 20000 characters |
+| validation: environment.type=desktop | 400 | 400 invalid_request_error | ok | environment must be {"type": "browser"}; v0 runs browser tasks only |
+| validation: start_url ftp:// | 400 | 400 invalid_request_error | ok | environment.start_url must be an http or https URL, or a host such as example.co |
+| validation: start_url javascript: | 400 | 400 invalid_request_error | ok | environment.start_url must be an http or https URL, or a host such as example.co |
+| validation: start_url file:///etc/passwd | 400 | 400 invalid_request_error | ok | environment.start_url must be an http or https URL, or a host such as example.co |
+| validation: max_runtime 59 | 400 | 400 invalid_request_error | ok | limits.max_runtime_seconds must be a number from 60 to 7200 |
+| validation: max_runtime 7201 | 400 | 400 invalid_request_error | ok | limits.max_runtime_seconds must be a number from 60 to 7200 |
+| validation: max_cost 0 | 400 | 400 invalid_request_error | ok | limits.max_cost_usd must be a number from 0.01 to 50 |
+| validation: max_cost 50.01 | 400 | 400 invalid_request_error | ok | limits.max_cost_usd must be a number from 0.01 to 50 |
+| validation: max_cost as string | 400 | 400 invalid_request_error | ok | limits.max_cost_usd must be a number from 0.01 to 50 |
+| validation: effort=extreme | 400 | 400 invalid_request_error | ok | effort must be low, medium or high |
+| validation: unknown model | 400 | 400 model_not_found | ok | model must be a Moss tier or a Moss catalog model that tasks serve: moss-advance |
+| validation: unknown top-level field | 400 | 400 invalid_request_error | ok | Unknown field foo |
+| validation: output_schema type array | 400 | 400 invalid_request_error | ok | output_schema must describe one JSON object: its "type" must be "object". For a  |
+| validation: output_schema not valid JSON Schema | 400 | 400 invalid_request_error | ok | output_schema.properties.a.type must be one of object, array, string, boolean, n |
+| validation: metadata 5 KB | 400 | 400 invalid_request_error | ok | metadata must be an object under 4000 bytes |
+| validation: body 300 KiB | 413 | 413 invalid_request_error | ok |  |
+| no auth | 401 | 401 authentication_error | ok |  |
+| GET nonexistent task | 404 | 404 not_found_error | ok |  |
+| GET malformed id | 400/404 | 404 not_found_error | ok |  |
+| idempotency: same key+body | same id, Idempotent-Replayed: true | 202/202 same_id=True replayed=true | ok |  |
+| idempotency: same key, new body | 422 idempotency_key_reused | 422 idempotency_key_reused | ok |  |
+| idempotency: 256-char key | 400 | 400 invalid_request_error | ok |  |
+| files before finish | 409 task_not_finished | 409 task_not_finished | ok |  |
+| cancel right after create | cancelled (or cancel_requested) | 200 status=running cancel_requested=True | ok |  |
+|   final state after early cancel | cancelled | cancelled cost=$0.004018 | ok | [('running', 1.6), ('cancelled', 18.2)] |
+| cancel an already-cancelled task | 200, unchanged | 200 status=cancelled | ok |  |
+| files after finish | 200 list | 200 {"object": "list", "data": [{"path": "screenshots/runner/00001-step-2.png", "byt | ok |  |
+| files path traversal ../../etc/passwd | 404/400 | 404  | ok |  |
+| cancel while running | cancelled soon after | cancelled after 9s, cost=$0.006561 | ok | [('running', 0.8), ('cancelled', 8.2)] |
+| limit: budget $0.01 | failed budget_exceeded, model_usd ≤ cap | failed budget_exceeded model_usd=0.023841 total=0.024174 runtime=2026-11-25T15:36:54.784004+00:00→2026-11-25T15:37:01.391192+00:00 | **MISMATCH** | [('running', 1.6), ('failed', 9.9)] |
+| limit: runtime 60s | failed time_limit, model_usd ≤ cap | failed time_limit model_usd=0.092239 total=0.092572 runtime=2026-11-25T15:37:05.440160+00:00→2026-11-25T15:38:06.693426+00:00 | ok | [('running', 1.6), ('failed', 64.5)] |
+| 22 rapid creates (queue cap 20) | 429 too_many_queued_tasks after 20 queued | 22 accepted, 0 rejected | **MISMATCH** | 202, 202, 202, 202, 202, 202, 202, 202, 202, 202, 202, 202, 202, 202, 202, 202, 202, 202, 202, 202, 202, 202 |

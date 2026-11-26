@@ -1,0 +1,41 @@
+{
+  "request": {
+    "method": "POST",
+    "path": "/tasks",
+    "headers": {
+      "Authorization": "<redacted>"
+    },
+    "body": {
+      "goal": "Open example.com and return the main heading.",
+      "environment": {
+        "type": "browser",
+        "start_url": "https://example.com"
+      },
+      "model": "moss-ultra",
+      "limits": {
+        "max_runtime_seconds": 120,
+        "max_cost_usd": 0.05
+      }
+    }
+  },
+  "status": 400,
+  "ms": 697,
+  "resp_headers": {
+    "Content-Length": "712",
+    "content-type": "application/json",
+    "date": "Wed, 25 Nov 2026 15:35:57 GMT",
+    "server": "uvicorn",
+    "vary": "Origin",
+    "via": "1.1 Caddy, 1.1 google",
+    "x-moss-request-id": "5f012d8dd77642ee9a320f37c5a7c0f4",
+    "Alt-Svc": "clear"
+  },
+  "body": {
+    "error": {
+      "message": "model must be a Moss tier or a Moss catalog model that tasks serve: moss-advanced, moss-balanced, moss-balanced-handoff, moss-fast, moss-fast-beta, anthropic/claude-fable-5.1, anthropic/claude-haiku-5.5, anthropic/claude-opus-5.5, anthropic/claude-sonnet-5.5, deepseek/deepseek-v4.1-flash, deepseek/deepseek-v4.1-flash-1017, google/gemini-3.5-flash-lite, google/gemini-3.8-flash, google/gemini-4-argon, minimax/minimax-m3.1-flash, moonshotai/kimi-k3, openai/gpt-6-astra, openai/gpt-6-luna, openai/gpt-6.1-sol, openai/gpt-6.1-terra, qwen/qwen3.8-flash, z-ai/glm-5.3, z-ai/glm-5.3-flash",
+      "type": "invalid_request_error",
+      "code": "model_not_found",
+      "request_id": "5f012d8dd77642ee9a320f37c5a7c0f4"
+    }
+  }
+}

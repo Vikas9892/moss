@@ -1,0 +1,2383 @@
+[
+  {
+    "model": "moss/fastlane-1",
+    "prompt": "In one sentence, what is a hash map? (run 0)",
+    "cache": "off",
+    "status": 200,
+    "ttft_ms": 489,
+    "total_ms": 745,
+    "text": "A hash map is a data structure that uses a hash function to map keys to values, allowing for efficient average-case constant time complexity for insertion, lookup, and deletion operations.",
+    "usage": {
+      "prompt_tokens": 102,
+      "completion_tokens": 36,
+      "total_tokens": 138,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "error": null,
+    "x_moss_request_id": "a25b933569fc4f9d9de1a8e5b8386cfd"
+  },
+  {
+    "model": "moss/fastlane-1",
+    "prompt": "In one sentence, what is a TCP handshake? (run 1)",
+    "cache": "off",
+    "status": 200,
+    "ttft_ms": 484,
+    "total_ms": 722,
+    "text": "A TCP handshake is the three-step synchronization process (SYN, SYN-ACK, ACK) used by two network devices to establish a reliable connection before data transfer begins.",
+    "usage": {
+      "prompt_tokens": 102,
+      "completion_tokens": 35,
+      "total_tokens": 137,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "error": null,
+    "x_moss_request_id": "e15f5e345db1420aad523b23d2e1357b"
+  },
+  {
+    "model": "moss/fastlane-1",
+    "prompt": "In one sentence, what is a B-tree? (run 2)",
+    "cache": "off",
+    "status": 200,
+    "ttft_ms": 552,
+    "total_ms": 767,
+    "text": "A B-tree is a self-balancing tree data structure that keeps data sorted and allows searches, insertions, and deletions in logarithmic time.",
+    "usage": {
+      "prompt_tokens": 102,
+      "completion_tokens": 31,
+      "total_tokens": 133,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "error": null,
+    "x_moss_request_id": "c6de6fed83934e0bb05d8e3ed200217a"
+  },
+  {
+    "model": "moss/fastlane-1",
+    "prompt": "In one sentence, what is a garbage collection? (run 3)",
+    "cache": "off",
+    "status": 200,
+    "ttft_ms": 547,
+    "total_ms": 736,
+    "text": "Garbage collection is an automatic memory management technique in programming that identifies and reclaims memory occupied by objects that are no longer in use.",
+    "usage": {
+      "prompt_tokens": 102,
+      "completion_tokens": 28,
+      "total_tokens": 130,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "error": null,
+    "x_moss_request_id": "704f34e7e8774668b3656dcd5b27214e"
+  },
+  {
+    "model": "moss/fastlane-1",
+    "prompt": "In one sentence, what is a CAP theorem? (run 4)",
+    "cache": "off",
+    "status": 200,
+    "ttft_ms": 465,
+    "total_ms": 669,
+    "text": "CAP theorem states that a distributed data system can provide at most two out of the three guarantees of consistency, availability, and partition tolerance.",
+    "usage": {
+      "prompt_tokens": 102,
+      "completion_tokens": 28,
+      "total_tokens": 130,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "error": null,
+    "x_moss_request_id": "68ffd58c3deb430d81ab68eef2851040"
+  },
+  {
+    "model": "moss/fastlane-1",
+    "prompt": "In one sentence, what is a mutex? (run 5)",
+    "cache": "off",
+    "status": 200,
+    "ttft_ms": 509,
+    "total_ms": 746,
+    "text": "A mutex, short for mutual exclusion lock, is a synchronization primitive that ensures only one thread or process can access a shared resource at a time to prevent race conditions.",
+    "usage": {
+      "prompt_tokens": 101,
+      "completion_tokens": 34,
+      "total_tokens": 135,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "error": null,
+    "x_moss_request_id": "4908177bf8204322b8fbb30392b12284"
+  },
+  {
+    "model": "moss/fastlane-1",
+    "prompt": "In one sentence, what is a DNS? (run 6)",
+    "cache": "off",
+    "status": 200,
+    "ttft_ms": 460,
+    "total_ms": 714,
+    "text": "DNS is the Domain Name System, which functions as the internet's decentralized directory service that translates human-friendly domain names into the IP addresses required for network communication.",
+    "usage": {
+      "prompt_tokens": 101,
+      "completion_tokens": 32,
+      "total_tokens": 133,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "error": null,
+    "x_moss_request_id": "e1470cb2464147acb5fb15484fac81fe"
+  },
+  {
+    "model": "moss/fastlane-1",
+    "prompt": "In one sentence, what is a Bloom filter? (run 7)",
+    "cache": "off",
+    "status": 200,
+    "ttft_ms": 486,
+    "total_ms": 706,
+    "text": "A Bloom filter is a space-efficient, probabilistic data structure used to test whether an element is a member of a set, which can yield false positives but never false negatives.",
+    "usage": {
+      "prompt_tokens": 102,
+      "completion_tokens": 36,
+      "total_tokens": 138,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "error": null,
+    "x_moss_request_id": "a98e6356e2f04cba8049e81e373f0e28"
+  },
+  {
+    "model": "moss/fastlane-1",
+    "prompt": "In one sentence, what is a gradient descent? (run 8)",
+    "cache": "off",
+    "status": 200,
+    "ttft_ms": 515,
+    "total_ms": 771,
+    "text": "Gradient descent is an iterative optimization algorithm used in machine learning to minimize a function by repeatedly moving it in the direction of the steepest descent as defined by the negative of the gradient.",
+    "usage": {
+      "prompt_tokens": 102,
+      "completion_tokens": 38,
+      "total_tokens": 140,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "error": null,
+    "x_moss_request_id": "f4f74f81a87244f38f611f2a12128f0c"
+  },
+  {
+    "model": "moss/fastlane-1",
+    "prompt": "In one sentence, what is a TLS? (run 9)",
+    "cache": "off",
+    "status": 200,
+    "ttft_ms": 467,
+    "total_ms": 583,
+    "text": "A TLS is a cryptographic protocol designed to provide secure communication over a computer network.",
+    "usage": {
+      "prompt_tokens": 101,
+      "completion_tokens": 17,
+      "total_tokens": 118,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "error": null,
+    "x_moss_request_id": "88048d04f35749ca973bb09f3f80ffa3"
+  },
+  {
+    "model": "moss/fastlane-1",
+    "prompt": "In one sentence, what is a load balancer? (run 10)",
+    "cache": "off",
+    "status": 200,
+    "ttft_ms": 473,
+    "total_ms": 730,
+    "text": "A load balancer is a network device or software component that distributes incoming traffic across multiple servers to ensure no single server becomes overloaded, thereby improving application availability and responsiveness.",
+    "usage": {
+      "prompt_tokens": 104,
+      "completion_tokens": 34,
+      "total_tokens": 138,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "error": null,
+    "x_moss_request_id": "ec1b757243dd4652a86054e039996573"
+  },
+  {
+    "model": "moss/fastlane-1",
+    "prompt": "In one sentence, what is a consistent hashing? (run 11)",
+    "cache": "off",
+    "status": 200,
+    "ttft_ms": 481,
+    "total_ms": 783,
+    "text": "Consistent hashing is a distributed system hashing technique that minimizes the number of objects that must be remapped to nodes when the set of nodes in the system changes.",
+    "usage": {
+      "prompt_tokens": 103,
+      "completion_tokens": 34,
+      "total_tokens": 137,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "error": null,
+    "x_moss_request_id": "cc9632d3fc0a4dce86bf17337e8e0363"
+  },
+  {
+    "model": "moss/fastlane-1",
+    "prompt": "In one sentence, what is a LRU cache? (run 12)",
+    "cache": "off",
+    "status": 200,
+    "ttft_ms": 487,
+    "total_ms": 740,
+    "text": "A LRU cache is a data structure that manages a limited-size storage area by evicting the least recently used items first to make room for new ones.",
+    "usage": {
+      "prompt_tokens": 104,
+      "completion_tokens": 33,
+      "total_tokens": 137,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "error": null,
+    "x_moss_request_id": "2b7ebc190c9841a5afb46dbbd36864a7"
+  },
+  {
+    "model": "moss/fastlane-1",
+    "prompt": "In one sentence, what is a event loop? (run 13)",
+    "cache": "off",
+    "status": 200,
+    "ttft_ms": 464,
+    "total_ms": 788,
+    "text": "An event loop is a mechanism in an execution environment that executes callbacks and processes events in a queue, enabling non-blocking I/O and asynchronous behavior in single-threaded programming.",
+    "usage": {
+      "prompt_tokens": 103,
+      "completion_tokens": 35,
+      "total_tokens": 138,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "error": null,
+    "x_moss_request_id": "43b3639bb67941c2b49f7b4964f78e89"
+  },
+  {
+    "model": "moss/fastlane-1",
+    "prompt": "In one sentence, what is a vector database? (run 14)",
+    "cache": "off",
+    "status": 200,
+    "ttft_ms": 454,
+    "total_ms": 765,
+    "text": "A vector database is a specialized data store designed to efficiently manage, index, and query high-dimensional vector data, typically to enable fast similarity search for applications like AI and machine learning.",
+    "usage": {
+      "prompt_tokens": 103,
+      "completion_tokens": 37,
+      "total_tokens": 140,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "error": null,
+    "x_moss_request_id": "9b522303ffa749ed844c5ccb1a7a39ba"
+  },
+  {
+    "model": "moss/fastlane-1",
+    "prompt": "In one sentence, what is a JWT? (run 15)",
+    "cache": "off",
+    "status": 200,
+    "ttft_ms": 521,
+    "total_ms": 706,
+    "text": "A JSON Web Token (JWT) is a compact, URL-safe means of representing a claim to be transferred between two parties.",
+    "usage": {
+      "prompt_tokens": 102,
+      "completion_tokens": 26,
+      "total_tokens": 128,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "error": null,
+    "x_moss_request_id": "a33108b5934645fb882cccbfe3d0644d"
+  },
+  {
+    "model": "moss/fastlane-1",
+    "prompt": "In one sentence, what is a rate limiter? (run 16)",
+    "cache": "off",
+    "status": 200,
+    "ttft_ms": 588,
+    "total_ms": 860,
+    "text": "A rate limiter is a mechanism that restricts the number of requests or actions a client can perform within a specified time frame to prevent abuse, ensure fairness, and protect system resources.",
+    "usage": {
+      "prompt_tokens": 103,
+      "completion_tokens": 37,
+      "total_tokens": 140,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "error": null,
+    "x_moss_request_id": "6f9300f656204271aa88aac0f5b6ab5b"
+  },
+  {
+    "model": "moss/fastlane-1",
+    "prompt": "In one sentence, what is a Kafka? (run 17)",
+    "cache": "off",
+    "status": 200,
+    "ttft_ms": 461,
+    "total_ms": 939,
+    "text": "The prompt contains a typo and lacks context; however, if you meant \"What is Kafka?\" in a general sense, Kafka is a decentralized event streaming platform used for real-time data pipelines and stream processing, named after the author Franz Kafka.",
+    "usage": {
+      "prompt_tokens": 102,
+      "completion_tokens": 49,
+      "total_tokens": 151,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "error": null,
+    "x_moss_request_id": "3935ed24f87f4d839661848327bd3490"
+  },
+  {
+    "model": "moss/fastlane-1",
+    "prompt": "In one sentence, what is a Raft? (run 18)",
+    "cache": "off",
+    "status": 200,
+    "ttft_ms": 488,
+    "total_ms": 735,
+    "text": "A Raft is a floating platform or structure typically constructed from logs or planks, used primarily to transport people or cargo across bodies of water.",
+    "usage": {
+      "prompt_tokens": 103,
+      "completion_tokens": 30,
+      "total_tokens": 133,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "error": null,
+    "x_moss_request_id": "a3026a47e54e4f1a86c880d176599246"
+  },
+  {
+    "model": "moss/fastlane-1",
+    "prompt": "In one sentence, what is a CDN? (run 19)",
+    "cache": "off",
+    "status": 200,
+    "ttft_ms": 889,
+    "total_ms": 1184,
+    "text": "A Content Delivery Network (CDN) is a distributed network of servers that delivers web content to users from the geographically closest location to minimize latency and improve load times.",
+    "usage": {
+      "prompt_tokens": 102,
+      "completion_tokens": 35,
+      "total_tokens": 137,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "error": null,
+    "x_moss_request_id": "77cd4c6b6a7a45a5bbe342941b27dfb7"
+  },
+  {
+    "model": "openai/gpt-6-luna",
+    "prompt": "In one sentence, what is a hash map? (run 0)",
+    "cache": "off",
+    "status": 200,
+    "ttft_ms": 1441,
+    "total_ms": 1693,
+    "text": "A hash map is a data structure that stores key\u2013value pairs and uses a hash function to enable fast lookups, insertions, and deletions.",
+    "usage": {
+      "prompt_tokens": 38,
+      "completion_tokens": 60,
+      "total_tokens": 98,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 23
+      }
+    },
+    "error": null,
+    "x_moss_request_id": "76a835390e184235a1c716c16b39877a"
+  },
+  {
+    "model": "openai/gpt-6-luna",
+    "prompt": "In one sentence, what is a TCP handshake? (run 1)",
+    "cache": "off",
+    "status": 200,
+    "ttft_ms": 1267,
+    "total_ms": 1461,
+    "text": "A TCP handshake is the three-step exchange of SYN, SYN-ACK, and ACK messages that establishes a connection between two devices.",
+    "usage": {
+      "prompt_tokens": 38,
+      "completion_tokens": 53,
+      "total_tokens": 91,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 21
+      }
+    },
+    "error": null,
+    "x_moss_request_id": "ac0c284d09f04246ad6aa8b87fe7cb21"
+  },
+  {
+    "model": "openai/gpt-6-luna",
+    "prompt": "In one sentence, what is a B-tree? (run 2)",
+    "cache": "off",
+    "status": 200,
+    "ttft_ms": 1365,
+    "total_ms": 1640,
+    "text": "A B-tree is a self-balancing search tree that stores multiple sorted keys per node, enabling efficient lookup, insertion, and deletion.",
+    "usage": {
+      "prompt_tokens": 38,
+      "completion_tokens": 58,
+      "total_tokens": 96,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 25
+      }
+    },
+    "error": null,
+    "x_moss_request_id": "5063c4215fe54f52bb1601927251b70e"
+  },
+  {
+    "model": "openai/gpt-6-luna",
+    "prompt": "In one sentence, what is a garbage collection? (run 3)",
+    "cache": "off",
+    "status": 200,
+    "ttft_ms": null,
+    "total_ms": 1796,
+    "text": "",
+    "usage": {
+      "prompt_tokens": 38,
+      "completion_tokens": 60,
+      "total_tokens": 98,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 60
+      }
+    },
+    "error": null,
+    "x_moss_request_id": "090d1ba949f24fc09bda3bfbeb581197"
+  },
+  {
+    "model": "openai/gpt-6-luna",
+    "prompt": "In one sentence, what is a CAP theorem? (run 4)",
+    "cache": "off",
+    "status": 200,
+    "ttft_ms": 1401,
+    "total_ms": 1537,
+    "text": "The CAP theorem states that during a network partition, a distributed system must choose between consistency",
+    "usage": {
+      "prompt_tokens": 38,
+      "completion_tokens": 60,
+      "total_tokens": 98,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 38
+      }
+    },
+    "error": null,
+    "x_moss_request_id": "e1145f906ce34030b93b854b3fb63de5"
+  },
+  {
+    "model": "openai/gpt-6-luna",
+    "prompt": "In one sentence, what is a mutex? (run 5)",
+    "cache": "off",
+    "status": 200,
+    "ttft_ms": 1241,
+    "total_ms": 1419,
+    "text": "A mutex is a synchronization lock that allows only one thread at a time to access a shared resource.",
+    "usage": {
+      "prompt_tokens": 37,
+      "completion_tokens": 45,
+      "total_tokens": 82,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 19
+      }
+    },
+    "error": null,
+    "x_moss_request_id": "5af966423ac7414faa42a536fef66221"
+  },
+  {
+    "model": "openai/gpt-6-luna",
+    "prompt": "In one sentence, what is a DNS? (run 6)",
+    "cache": "off",
+    "status": null,
+    "ttft_ms": null,
+    "total_ms": 23097,
+    "text": "",
+    "usage": null,
+    "error": "ConnectionError(ProtocolError('Connection aborted.', RemoteDisconnected('Remote end closed connection without response')))",
+    "x_moss_request_id": null
+  },
+  {
+    "model": "openai/gpt-6-luna",
+    "prompt": "In one sentence, what is a Bloom filter? (run 7)",
+    "cache": "off",
+    "status": 200,
+    "ttft_ms": 1257,
+    "total_ms": 1500,
+    "text": "A Bloom filter is a space-efficient probabilistic data structure for testing set membership that can return false positives but not false negatives.",
+    "usage": {
+      "prompt_tokens": 38,
+      "completion_tokens": 60,
+      "total_tokens": 98,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 30
+      }
+    },
+    "error": null,
+    "x_moss_request_id": "bf362137f22f46539791bf4d3e42e8c5"
+  },
+  {
+    "model": "openai/gpt-6-luna",
+    "prompt": "In one sentence, what is a gradient descent? (run 8)",
+    "cache": "off",
+    "status": 200,
+    "ttft_ms": 1603,
+    "total_ms": 1732,
+    "text": "Gradient descent is an optimization algorithm that repeatedly adjusts parameters in the direction opposite the",
+    "usage": {
+      "prompt_tokens": 38,
+      "completion_tokens": 60,
+      "total_tokens": 98,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 40
+      }
+    },
+    "error": null,
+    "x_moss_request_id": "542b72c3ea0c4fa89c79bb98e66e33d0"
+  },
+  {
+    "model": "openai/gpt-6-luna",
+    "prompt": "In one sentence, what is a TLS? (run 9)",
+    "cache": "off",
+    "status": 200,
+    "ttft_ms": 1619,
+    "total_ms": 1794,
+    "text": "TLS (Transport Layer Security) is a protocol that encrypts data sent between devices over a network.",
+    "usage": {
+      "prompt_tokens": 37,
+      "completion_tokens": 49,
+      "total_tokens": 86,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 23
+      }
+    },
+    "error": null,
+    "x_moss_request_id": "9f6c626c4839425e8ea95ccaf57cb51b"
+  },
+  {
+    "model": "openai/gpt-6-luna",
+    "prompt": "In one sentence, what is a load balancer? (run 10)",
+    "cache": "off",
+    "status": 200,
+    "ttft_ms": 1311,
+    "total_ms": 1474,
+    "text": "A load balancer distributes incoming network traffic across multiple servers to improve performance and reliability.",
+    "usage": {
+      "prompt_tokens": 39,
+      "completion_tokens": 45,
+      "total_tokens": 84,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 22
+      }
+    },
+    "error": null,
+    "x_moss_request_id": "f7a5ad13ab13454592385d5fbb057931"
+  },
+  {
+    "model": "openai/gpt-6-luna",
+    "prompt": "In one sentence, what is a consistent hashing? (run 11)",
+    "cache": "off",
+    "status": 200,
+    "ttft_ms": 1261,
+    "total_ms": 1625,
+    "text": "Consistent hashing is a technique that maps data and servers onto a circular hash space so that adding or removing a server remaps only a small portion of the data.",
+    "usage": {
+      "prompt_tokens": 38,
+      "completion_tokens": 58,
+      "total_tokens": 96,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 19
+      }
+    },
+    "error": null,
+    "x_moss_request_id": "d3d00e306d684bc7bbcd629a250033dd"
+  },
+  {
+    "model": "openai/gpt-6-luna",
+    "prompt": "In one sentence, what is a LRU cache? (run 12)",
+    "cache": "off",
+    "status": 200,
+    "ttft_ms": 1182,
+    "total_ms": 1441,
+    "text": "A least recently used (LRU) cache is a cache that evicts the item that hasn\u2019t been accessed for the longest time when it needs space.",
+    "usage": {
+      "prompt_tokens": 39,
+      "completion_tokens": 57,
+      "total_tokens": 96,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 20
+      }
+    },
+    "error": null,
+    "x_moss_request_id": "8de4371e0640471f9439fb6631552c80"
+  },
+  {
+    "model": "openai/gpt-6-luna",
+    "prompt": "In one sentence, what is a event loop? (run 13)",
+    "cache": "off",
+    "status": 200,
+    "ttft_ms": 1333,
+    "total_ms": 1585,
+    "text": "An event loop is a mechanism that repeatedly checks for and processes events or tasks, allowing a program to handle multiple operations efficiently.",
+    "usage": {
+      "prompt_tokens": 38,
+      "completion_tokens": 53,
+      "total_tokens": 91,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 22
+      }
+    },
+    "error": null,
+    "x_moss_request_id": "ee8076cb25894412aa2ac1f5ea5bb4b8"
+  },
+  {
+    "model": "openai/gpt-6-luna",
+    "prompt": "In one sentence, what is a vector database? (run 14)",
+    "cache": "off",
+    "status": 200,
+    "ttft_ms": 1387,
+    "total_ms": 1695,
+    "text": "A vector database stores and searches high-dimensional numerical representations of data, typically to find items that are semantically similar.",
+    "usage": {
+      "prompt_tokens": 38,
+      "completion_tokens": 42,
+      "total_tokens": 80,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 13
+      }
+    },
+    "error": null,
+    "x_moss_request_id": "4e4d9e6d72f04ba48975a12114d12851"
+  },
+  {
+    "model": "openai/gpt-6-luna",
+    "prompt": "In one sentence, what is a JWT? (run 15)",
+    "cache": "off",
+    "status": 200,
+    "ttft_ms": 1286,
+    "total_ms": 1529,
+    "text": "A JWT (JSON Web Token) is a compact, URL-safe token format for securely transmitting claims between parties, often used for authentication and authorization.",
+    "usage": {
+      "prompt_tokens": 37,
+      "completion_tokens": 49,
+      "total_tokens": 86,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 14
+      }
+    },
+    "error": null,
+    "x_moss_request_id": "6959f152fc7b46b8abec7dfb1e84c604"
+  },
+  {
+    "model": "openai/gpt-6-luna",
+    "prompt": "In one sentence, what is a rate limiter? (run 16)",
+    "cache": "off",
+    "status": 200,
+    "ttft_ms": 1091,
+    "total_ms": 1461,
+    "text": "A rate limiter controls how many requests a user or system can make within a specified time period.",
+    "usage": {
+      "prompt_tokens": 38,
+      "completion_tokens": 23,
+      "total_tokens": 61,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "error": null,
+    "x_moss_request_id": "0ca61c7af89a4c25a3ffe487105ae3f7"
+  },
+  {
+    "model": "openai/gpt-6-luna",
+    "prompt": "In one sentence, what is a Kafka? (run 17)",
+    "cache": "off",
+    "status": 200,
+    "ttft_ms": null,
+    "total_ms": 1573,
+    "text": "",
+    "usage": {
+      "prompt_tokens": 37,
+      "completion_tokens": 60,
+      "total_tokens": 97,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 60
+      }
+    },
+    "error": null,
+    "x_moss_request_id": "8c2acb762a64438ca6e311d6762e5bcc"
+  },
+  {
+    "model": "openai/gpt-6-luna",
+    "prompt": "In one sentence, what is a Raft? (run 18)",
+    "cache": "off",
+    "status": 200,
+    "ttft_ms": null,
+    "total_ms": 1617,
+    "text": "",
+    "usage": {
+      "prompt_tokens": 38,
+      "completion_tokens": 60,
+      "total_tokens": 98,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 60
+      }
+    },
+    "error": null,
+    "x_moss_request_id": "47657d6bf4dc42e1a022a8df6db4dc3b"
+  },
+  {
+    "model": "openai/gpt-6-luna",
+    "prompt": "In one sentence, what is a CDN? (run 19)",
+    "cache": "off",
+    "status": 200,
+    "ttft_ms": 1274,
+    "total_ms": 1599,
+    "text": "A CDN (content delivery network) is a geographically distributed network of servers that delivers web content to users from a nearby location, improving speed and reliability.",
+    "usage": {
+      "prompt_tokens": 37,
+      "completion_tokens": 54,
+      "total_tokens": 91,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 18
+      }
+    },
+    "error": null,
+    "x_moss_request_id": "5ef9bcb3cfc24b668f30527418ff40f8"
+  },
+  {
+    "model": "anthropic/claude-haiku-5.5",
+    "prompt": "In one sentence, what is a hash map? (run 0)",
+    "cache": "off",
+    "status": 200,
+    "ttft_ms": 1023,
+    "total_ms": 1272,
+    "text": "A hash map is a data structure that stores key-value pairs and uses a hash function to compute an index into an array of buckets, allowing average-case constant-time lookup, insertion, and deletion",
+    "usage": {
+      "prompt_tokens": 45,
+      "completion_tokens": 60,
+      "total_tokens": 105,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "error": null,
+    "x_moss_request_id": "19dbfaa47e2040fd85ce79fa3a484285"
+  },
+  {
+    "model": "anthropic/claude-haiku-5.5",
+    "prompt": "In one sentence, what is a TCP handshake? (run 1)",
+    "cache": "off",
+    "status": 200,
+    "ttft_ms": 1017,
+    "total_ms": 1202,
+    "text": "A TCP handshake is the three-message exchange (SYN, SYN-ACK, ACK) that a client and server use to establish a reliable connection and synchronize their initial sequence numb",
+    "usage": {
+      "prompt_tokens": 48,
+      "completion_tokens": 60,
+      "total_tokens": 108,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "error": null,
+    "x_moss_request_id": "815f40bda8774892becb48eea4581022"
+  },
+  {
+    "model": "anthropic/claude-haiku-5.5",
+    "prompt": "In one sentence, what is a B-tree? (run 2)",
+    "cache": "off",
+    "status": 200,
+    "ttft_ms": 1013,
+    "total_ms": 1280,
+    "text": "A B-tree is a self-balancing tree data structure that keeps keys sorted and allows searches, insertions, and deletions in logarithmic time by storing multiple keys and child pointers",
+    "usage": {
+      "prompt_tokens": 46,
+      "completion_tokens": 60,
+      "total_tokens": 106,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "error": null,
+    "x_moss_request_id": "654fd7b3cff24b17a7c6a64cdc1729c2"
+  },
+  {
+    "model": "anthropic/claude-haiku-5.5",
+    "prompt": "In one sentence, what is a garbage collection? (run 3)",
+    "cache": "off",
+    "status": 200,
+    "ttft_ms": 1393,
+    "total_ms": 1939,
+    "text": "Garbage collection is an automatic memory management process in which a runtime identifies and reclaims memory occupied by objects that are no longer reachable or in use by a program.",
+    "usage": {
+      "prompt_tokens": 47,
+      "completion_tokens": 54,
+      "total_tokens": 101,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "error": null,
+    "x_moss_request_id": "b67d6ac76f7a4c7b85e725c5e8013c93"
+  },
+  {
+    "model": "anthropic/claude-haiku-5.5",
+    "prompt": "In one sentence, what is a CAP theorem? (run 4)",
+    "cache": "off",
+    "status": 200,
+    "ttft_ms": 1088,
+    "total_ms": 1297,
+    "text": "The CAP theorem states that a distributed data store can guarantee at most two of the three properties (Consistency, Availability, and Partition tolerance) at the same time, and because network partitions are un",
+    "usage": {
+      "prompt_tokens": 48,
+      "completion_tokens": 60,
+      "total_tokens": 108,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "error": null,
+    "x_moss_request_id": "b4c01a1d25734b1fabfbdb8ad3417cd9"
+  },
+  {
+    "model": "anthropic/claude-haiku-5.5",
+    "prompt": "In one sentence, what is a mutex? (run 5)",
+    "cache": "off",
+    "status": 200,
+    "ttft_ms": 1064,
+    "total_ms": 1227,
+    "text": "A mutex (mutual exclusion lock) is a synchronization primitive that ensures only one thread or process at a time can access a shared resource or critical section of code.",
+    "usage": {
+      "prompt_tokens": 45,
+      "completion_tokens": 53,
+      "total_tokens": 98,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "error": null,
+    "x_moss_request_id": "a3ca9f81922645a4ba37f3fdcecc8837"
+  },
+  {
+    "model": "anthropic/claude-haiku-5.5",
+    "prompt": "In one sentence, what is a DNS? (run 6)",
+    "cache": "off",
+    "status": 200,
+    "ttft_ms": 1117,
+    "total_ms": 1323,
+    "text": "A DNS (Domain Name System) is the internet's directory service that translates human-readable domain names, like example.com, into the numeric IP addresses computers use to locate each other.",
+    "usage": {
+      "prompt_tokens": 45,
+      "completion_tokens": 57,
+      "total_tokens": 102,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "error": null,
+    "x_moss_request_id": "18f3792d146547a494b13c4a67ace1c4"
+  },
+  {
+    "model": "anthropic/claude-haiku-5.5",
+    "prompt": "In one sentence, what is a Bloom filter? (run 7)",
+    "cache": "off",
+    "status": 200,
+    "ttft_ms": 1049,
+    "total_ms": 1309,
+    "text": "A Bloom filter is a space-efficient probabilistic data structure that uses a bit array and multiple hash functions to test whether an element is possibly in a set (allowing false positives but never false",
+    "usage": {
+      "prompt_tokens": 48,
+      "completion_tokens": 60,
+      "total_tokens": 108,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "error": null,
+    "x_moss_request_id": "39c6079afab54c7b9d3da575896336cf"
+  },
+  {
+    "model": "anthropic/claude-haiku-5.5",
+    "prompt": "In one sentence, what is a gradient descent? (run 8)",
+    "cache": "off",
+    "status": 200,
+    "ttft_ms": 1161,
+    "total_ms": 1368,
+    "text": "Gradient descent is an optimization algorithm that iteratively adjusts a model's parameters in the direction opposite to the gradient of the loss function, gradually moving toward a minimum of",
+    "usage": {
+      "prompt_tokens": 47,
+      "completion_tokens": 60,
+      "total_tokens": 107,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "error": null,
+    "x_moss_request_id": "802f8d0552cb4a50ad0ec4a30f4c7060"
+  },
+  {
+    "model": "anthropic/claude-haiku-5.5",
+    "prompt": "In one sentence, what is a TLS? (run 9)",
+    "cache": "off",
+    "status": 200,
+    "ttft_ms": 1035,
+    "total_ms": 1279,
+    "text": "TLS (Transport Layer Security) is a cryptographic protocol that encrypts and authenticates communication between two parties, such as a web browser and a server, to keep data private and tamper-",
+    "usage": {
+      "prompt_tokens": 45,
+      "completion_tokens": 60,
+      "total_tokens": 105,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "error": null,
+    "x_moss_request_id": "aa7cfa44e728463995039fe301bf8cf9"
+  },
+  {
+    "model": "anthropic/claude-haiku-5.5",
+    "prompt": "In one sentence, what is a load balancer? (run 10)",
+    "cache": "off",
+    "status": 200,
+    "ttft_ms": 1285,
+    "total_ms": 1295,
+    "text": "A load balancer is a device or software that distributes incoming network traffic across multiple servers so that no single server becomes overwhelmed, improving reliability and performance.",
+    "usage": {
+      "prompt_tokens": 46,
+      "completion_tokens": 53,
+      "total_tokens": 99,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "error": null,
+    "x_moss_request_id": "2c092f85fb334a9c8c57a7ad7617e785"
+  },
+  {
+    "model": "anthropic/claude-haiku-5.5",
+    "prompt": "In one sentence, what is a consistent hashing? (run 11)",
+    "cache": "off",
+    "status": 200,
+    "ttft_ms": 4295,
+    "total_ms": 4571,
+    "text": "Consistent hashing is a technique for distributing keys across a set of servers so that adding or removing a server only remaps a small fraction of keys, by mapping both keys and servers onto a shared",
+    "usage": {
+      "prompt_tokens": 48,
+      "completion_tokens": 60,
+      "total_tokens": 108,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "error": null,
+    "x_moss_request_id": "05708dbe0724409997b3335b1dcf1ce0"
+  },
+  {
+    "model": "anthropic/claude-haiku-5.5",
+    "prompt": "In one sentence, what is a LRU cache? (run 12)",
+    "cache": "off",
+    "status": 200,
+    "ttft_ms": 1110,
+    "total_ms": 1343,
+    "text": "An LRU (Least Recently Used) cache is a fixed-capacity cache that, when full, evicts the item that has gone the longest without being accessed to make room for new entries.",
+    "usage": {
+      "prompt_tokens": 47,
+      "completion_tokens": 58,
+      "total_tokens": 105,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "error": null,
+    "x_moss_request_id": "4099c9f862fa4b13808d359f58ac6707"
+  },
+  {
+    "model": "anthropic/claude-haiku-5.5",
+    "prompt": "In one sentence, what is a event loop? (run 13)",
+    "cache": "off",
+    "status": 200,
+    "ttft_ms": 1028,
+    "total_ms": 1253,
+    "text": "An event loop is a programming construct that continuously waits for and dispatches events or tasks from a queue to their handlers, allowing a single thread to handle many operations without blocking.",
+    "usage": {
+      "prompt_tokens": 45,
+      "completion_tokens": 57,
+      "total_tokens": 102,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "error": null,
+    "x_moss_request_id": "c2b6a9772e9541e091190ed0cd915920"
+  },
+  {
+    "model": "anthropic/claude-haiku-5.5",
+    "prompt": "In one sentence, what is a vector database? (run 14)",
+    "cache": "off",
+    "status": 200,
+    "ttft_ms": 4541,
+    "total_ms": 4828,
+    "text": "A vector database is a database designed to store, index, and search high-dimensional vectors (numerical embeddings that represent data like text, images, or audio) so that it can quickly find the items most similar to",
+    "usage": {
+      "prompt_tokens": 45,
+      "completion_tokens": 60,
+      "total_tokens": 105,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "error": null,
+    "x_moss_request_id": "b85cfd93c58744218d7a3207bc5c096f"
+  },
+  {
+    "model": "anthropic/claude-haiku-5.5",
+    "prompt": "In one sentence, what is a JWT? (run 15)",
+    "cache": "off",
+    "status": 200,
+    "ttft_ms": 1035,
+    "total_ms": 1351,
+    "text": "A JWT (JSON Web Token) is a compact, URL-safe token that encodes claims as JSON, typically signed (and optionally encrypted), so a server can verify the token's integr",
+    "usage": {
+      "prompt_tokens": 45,
+      "completion_tokens": 60,
+      "total_tokens": 105,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "error": null,
+    "x_moss_request_id": "d7ac944c8a0144c280321dbf2d6ef2c9"
+  },
+  {
+    "model": "anthropic/claude-haiku-5.5",
+    "prompt": "In one sentence, what is a rate limiter? (run 16)",
+    "cache": "off",
+    "status": 200,
+    "ttft_ms": 3467,
+    "total_ms": 3691,
+    "text": "A rate limiter is a mechanism that controls how many requests or operations a client, user, or system can make within a given time window, rejecting or delaying excess requests to protect resources from overload and abu",
+    "usage": {
+      "prompt_tokens": 47,
+      "completion_tokens": 60,
+      "total_tokens": 107,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "error": null,
+    "x_moss_request_id": "37ca82b99fb6416a89e3014ec3a9c989"
+  },
+  {
+    "model": "anthropic/claude-haiku-5.5",
+    "prompt": "In one sentence, what is a Kafka? (run 17)",
+    "cache": "off",
+    "status": 200,
+    "ttft_ms": 1139,
+    "total_ms": 1591,
+    "text": "Kafka is either Franz Kafka, the Czech-language German writer known for novels like *The Trial* and *The Metamorphosis*, or Apache Kafka, an open-source dist",
+    "usage": {
+      "prompt_tokens": 46,
+      "completion_tokens": 60,
+      "total_tokens": 106,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "error": null,
+    "x_moss_request_id": "64882aec91b245e5a3033f266808c29b"
+  },
+  {
+    "model": "anthropic/claude-haiku-5.5",
+    "prompt": "In one sentence, what is a Raft? (run 18)",
+    "cache": "off",
+    "status": 200,
+    "ttft_ms": 5303,
+    "total_ms": 5574,
+    "text": "A Raft is a consensus algorithm that helps a cluster of machines agree on a shared, replicated log of operations so they can keep a consistent state even when some nodes fail.",
+    "usage": {
+      "prompt_tokens": 45,
+      "completion_tokens": 58,
+      "total_tokens": 103,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "error": null,
+    "x_moss_request_id": "0bfe90c3f02746438c1c9b8c130782ca"
+  },
+  {
+    "model": "anthropic/claude-haiku-5.5",
+    "prompt": "In one sentence, what is a CDN? (run 19)",
+    "cache": "off",
+    "status": 200,
+    "ttft_ms": 1027,
+    "total_ms": 1303,
+    "text": "A CDN (Content Delivery Network) is a geographically distributed network of servers that caches and delivers web content, such as images, videos, and scripts, from locations closer to end users to improve spe",
+    "usage": {
+      "prompt_tokens": 45,
+      "completion_tokens": 60,
+      "total_tokens": 105,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "error": null,
+    "x_moss_request_id": "583738464c2449da97dff79657276240"
+  },
+  {
+    "model": "google/gemini-3.5-flash-lite",
+    "prompt": "In one sentence, what is a hash map? (run 0)",
+    "cache": "off",
+    "status": 200,
+    "ttft_ms": 5610,
+    "total_ms": 5620,
+    "text": "A hash map is a data structure that stores key-value pairs and uses a hash function to compute an index, enabling fast data retrieval, insertion, and deletion.",
+    "usage": {
+      "prompt_tokens": 35,
+      "completion_tokens": 33,
+      "total_tokens": 68,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "error": null,
+    "x_moss_request_id": "6541c17d06f94b7eba1348f2b2ea0932"
+  },
+  {
+    "model": "google/gemini-3.5-flash-lite",
+    "prompt": "In one sentence, what is a TCP handshake? (run 1)",
+    "cache": "off",
+    "status": 200,
+    "ttft_ms": 1643,
+    "total_ms": 1646,
+    "text": "A TCP handshake is a three-step process used by two devices to establish a reliable network connection before sending data.",
+    "usage": {
+      "prompt_tokens": 35,
+      "completion_tokens": 23,
+      "total_tokens": 58,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "error": null,
+    "x_moss_request_id": "0cf3dafee9be4b14ae8ebc705d3b7c42"
+  },
+  {
+    "model": "google/gemini-3.5-flash-lite",
+    "prompt": "In one sentence, what is a B-tree? (run 2)",
+    "cache": "off",
+    "status": 200,
+    "ttft_ms": 1334,
+    "total_ms": 1373,
+    "text": "A B-tree is a self-balancing tree data structure that maintains sorted data and allows for efficient insertion, deletion, and search operations in logarithmic time while keeping nodes filled with multiple keys to minimize disk I/O operations.",
+    "usage": {
+      "prompt_tokens": 36,
+      "completion_tokens": 45,
+      "total_tokens": 81,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "error": null,
+    "x_moss_request_id": "5b689c614f794063ae706bb3fd0525d3"
+  },
+  {
+    "model": "google/gemini-3.5-flash-lite",
+    "prompt": "In one sentence, what is a garbage collection? (run 3)",
+    "cache": "off",
+    "status": 200,
+    "ttft_ms": 1451,
+    "total_ms": 1467,
+    "text": "Garbage collection is an automated memory management feature in programming languages that identifies and frees up computer memory occupied by objects that are no longer needed by the program.",
+    "usage": {
+      "prompt_tokens": 35,
+      "completion_tokens": 31,
+      "total_tokens": 66,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "error": null,
+    "x_moss_request_id": "31ceb99c6beb4572a2435e1fc2056d6a"
+  },
+  {
+    "model": "google/gemini-3.5-flash-lite",
+    "prompt": "In one sentence, what is a CAP theorem? (run 4)",
+    "cache": "off",
+    "status": 200,
+    "ttft_ms": 1077,
+    "total_ms": 1079,
+    "text": "The CAP theorem states that a distributed data store can simultaneously provide at most two of the following three guarantees: Consistency, Availability, and Partition tolerance.",
+    "usage": {
+      "prompt_tokens": 35,
+      "completion_tokens": 29,
+      "total_tokens": 64,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "error": null,
+    "x_moss_request_id": "2d959511581c4b1a9287dab7f7ba2ad5"
+  },
+  {
+    "model": "google/gemini-3.5-flash-lite",
+    "prompt": "In one sentence, what is a mutex? (run 5)",
+    "cache": "off",
+    "status": 200,
+    "ttft_ms": 1363,
+    "total_ms": 1365,
+    "text": "A mutex (mutual exclusion) is a synchronization primitive used in programming to ensure that only one thread or process can access a shared resource at any given time.",
+    "usage": {
+      "prompt_tokens": 34,
+      "completion_tokens": 31,
+      "total_tokens": 65,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "error": null,
+    "x_moss_request_id": "9a7c2a935b73443e839f2f0be568141a"
+  },
+  {
+    "model": "google/gemini-3.5-flash-lite",
+    "prompt": "In one sentence, what is a DNS? (run 6)",
+    "cache": "off",
+    "status": 200,
+    "ttft_ms": 4704,
+    "total_ms": 4705,
+    "text": "The Domain Name System (DNS) is a hierarchical decentralized naming system that translates human-friendly domain names (like www.example.com) into machine-readable IP addresses (like 192.0.2.1) to locate resources on the internet.",
+    "usage": {
+      "prompt_tokens": 34,
+      "completion_tokens": 54,
+      "total_tokens": 88,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "error": null,
+    "x_moss_request_id": "858a19032a534dc9bf10f4cb3670eace"
+  },
+  {
+    "model": "google/gemini-3.5-flash-lite",
+    "prompt": "In one sentence, what is a Bloom filter? (run 7)",
+    "cache": "off",
+    "status": 200,
+    "ttft_ms": 994,
+    "total_ms": 996,
+    "text": "A Bloom filter is a space-efficient probabilistic data structure used to test whether an element is definitely not in a set or likely to be in it.",
+    "usage": {
+      "prompt_tokens": 35,
+      "completion_tokens": 30,
+      "total_tokens": 65,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "error": null,
+    "x_moss_request_id": "a60cee962b574400875fd03717c8ad09"
+  },
+  {
+    "model": "google/gemini-3.5-flash-lite",
+    "prompt": "In one sentence, what is a gradient descent? (run 8)",
+    "cache": "off",
+    "status": 200,
+    "ttft_ms": 1281,
+    "total_ms": 1286,
+    "text": "Gradient descent is an iterative optimization algorithm that adjusts the parameters of a model in the opposite direction of the gradient to find the minimum possible value of a loss function.",
+    "usage": {
+      "prompt_tokens": 35,
+      "completion_tokens": 32,
+      "total_tokens": 67,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "error": null,
+    "x_moss_request_id": "5e951512522a45029e68e647b5ed0f12"
+  },
+  {
+    "model": "google/gemini-3.5-flash-lite",
+    "prompt": "In one sentence, what is a TLS? (run 9)",
+    "cache": "off",
+    "status": 200,
+    "ttft_ms": 5464,
+    "total_ms": 5466,
+    "text": "TLS (Transport Layer Security) is a cryptographic protocol designed to provide secure communications over a computer network by encrypting data transmitted between a client and a server.",
+    "usage": {
+      "prompt_tokens": 34,
+      "completion_tokens": 31,
+      "total_tokens": 65,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "error": null,
+    "x_moss_request_id": "a0d35558d6044a12b2eaea5cb3d1d822"
+  },
+  {
+    "model": "google/gemini-3.5-flash-lite",
+    "prompt": "In one sentence, what is a load balancer? (run 10)",
+    "cache": "off",
+    "status": 200,
+    "ttft_ms": 6184,
+    "total_ms": 6186,
+    "text": "A load balancer is a device or software service that distributes incoming network traffic across multiple servers to ensure reliability, high availability, and optimal resource utilization.",
+    "usage": {
+      "prompt_tokens": 36,
+      "completion_tokens": 29,
+      "total_tokens": 65,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "error": null,
+    "x_moss_request_id": "4c345bddb93647299dd178fe5a91c961"
+  },
+  {
+    "model": "google/gemini-3.5-flash-lite",
+    "prompt": "In one sentence, what is a consistent hashing? (run 11)",
+    "cache": "off",
+    "status": 200,
+    "ttft_ms": 1363,
+    "total_ms": 1411,
+    "text": "Consistent hashing is a distributed hashing technique that assigns both keys and nodes to a circular address space, ensuring that adding or removing a node only requires redistributing a minimal fraction of the total keys.",
+    "usage": {
+      "prompt_tokens": 36,
+      "completion_tokens": 38,
+      "total_tokens": 74,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "error": null,
+    "x_moss_request_id": "db3afabb92844431a266c542ed27e9ec"
+  },
+  {
+    "model": "google/gemini-3.5-flash-lite",
+    "prompt": "In one sentence, what is a LRU cache? (run 12)",
+    "cache": "off",
+    "status": 200,
+    "ttft_ms": 1603,
+    "total_ms": 1605,
+    "text": "A Least Recently Used (LRU) cache is a data structure that stores a limited number of items and automatically discards the item that hasn't been accessed for the longest time when it reaches capacity.",
+    "usage": {
+      "prompt_tokens": 37,
+      "completion_tokens": 41,
+      "total_tokens": 78,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "error": null,
+    "x_moss_request_id": "5c65b6fc81714f97854af606d557c6f2"
+  },
+  {
+    "model": "google/gemini-3.5-flash-lite",
+    "prompt": "In one sentence, what is a event loop? (run 13)",
+    "cache": "off",
+    "status": 200,
+    "ttft_ms": 1360,
+    "total_ms": 1378,
+    "text": "An event loop is a programming construct that continuously monitors and dispatches events or messages in a program, allowing asynchronous operations and non-blocking I/O to be handled on a single thread.",
+    "usage": {
+      "prompt_tokens": 36,
+      "completion_tokens": 38,
+      "total_tokens": 74,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "error": null,
+    "x_moss_request_id": "1abb8470605f4defb499684b33357012"
+  },
+  {
+    "model": "google/gemini-3.5-flash-lite",
+    "prompt": "In one sentence, what is a vector database? (run 14)",
+    "cache": "off",
+    "status": 200,
+    "ttft_ms": 1372,
+    "total_ms": 1374,
+    "text": "A vector database is a specialized database designed to store, manage, and efficiently query high-dimensional numerical vectors, typically used for powering AI applications like semantic search and recommendation systems.",
+    "usage": {
+      "prompt_tokens": 36,
+      "completion_tokens": 35,
+      "total_tokens": 71,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "error": null,
+    "x_moss_request_id": "6a084e1186c549b691414f7d009feb2c"
+  },
+  {
+    "model": "google/gemini-3.5-flash-lite",
+    "prompt": "In one sentence, what is a JWT? (run 15)",
+    "cache": "off",
+    "status": 200,
+    "ttft_ms": 1384,
+    "total_ms": 1386,
+    "text": "A JSON Web Token (JWT) is a compact, URL-safe means of securely transferring claims between parties as a digitally signed JSON object.",
+    "usage": {
+      "prompt_tokens": 35,
+      "completion_tokens": 28,
+      "total_tokens": 63,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "error": null,
+    "x_moss_request_id": "e5385e8a3b634da0b8cb0e3ffa6c1fba"
+  },
+  {
+    "model": "google/gemini-3.5-flash-lite",
+    "prompt": "In one sentence, what is a rate limiter? (run 16)",
+    "cache": "off",
+    "status": 200,
+    "ttft_ms": 1353,
+    "total_ms": 1355,
+    "text": "A rate limiter is a software mechanism used to control the number of incoming requests a system or API can receive from a single user within a specified time window to prevent abuse, overload, or crashing.",
+    "usage": {
+      "prompt_tokens": 36,
+      "completion_tokens": 39,
+      "total_tokens": 75,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "error": null,
+    "x_moss_request_id": "4b64be4d9cfe43b1a44dc7d6ed986a1f"
+  },
+  {
+    "model": "google/gemini-3.5-flash-lite",
+    "prompt": "In one sentence, what is a Kafka? (run 17)",
+    "cache": "off",
+    "status": 200,
+    "ttft_ms": 1402,
+    "total_ms": 1404,
+    "text": "Apache Kafka is an open-source distributed event streaming platform designed to handle high-throughput, real-time data feeds reliably across multiple systems.",
+    "usage": {
+      "prompt_tokens": 35,
+      "completion_tokens": 28,
+      "total_tokens": 63,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "error": null,
+    "x_moss_request_id": "27e4ee0697b54be68f040861e7f9115a"
+  },
+  {
+    "model": "google/gemini-3.5-flash-lite",
+    "prompt": "In one sentence, what is a Raft? (run 18)",
+    "cache": "off",
+    "status": 200,
+    "ttft_ms": 6264,
+    "total_ms": 6266,
+    "text": "A Raft is a consensus algorithm designed for managing a replicated log, structured around a strong leader to make distributed systems easier to understand and implement.",
+    "usage": {
+      "prompt_tokens": 36,
+      "completion_tokens": 29,
+      "total_tokens": 65,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "error": null,
+    "x_moss_request_id": "c78957f8854a423c9532f4506d92b040"
+  },
+  {
+    "model": "google/gemini-3.5-flash-lite",
+    "prompt": "In one sentence, what is a CDN? (run 19)",
+    "cache": "off",
+    "status": 200,
+    "ttft_ms": 1275,
+    "total_ms": 1277,
+    "text": "A Content Delivery Network (CDN) is a geographically distributed network of proxy servers that caches and delivers website content closer to end users to improve speed, performance, and security.",
+    "usage": {
+      "prompt_tokens": 35,
+      "completion_tokens": 34,
+      "total_tokens": 69,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "error": null,
+    "x_moss_request_id": "6c2fc50cfc904ea4bc94a2bd8c7ad335"
+  },
+  {
+    "model": "deepseek/deepseek-v4.1-flash",
+    "prompt": "In one sentence, what is a hash map? (run 0)",
+    "cache": "off",
+    "status": 200,
+    "ttft_ms": null,
+    "total_ms": 1984,
+    "text": "",
+    "usage": {
+      "prompt_tokens": 59,
+      "completion_tokens": 60,
+      "total_tokens": 119,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 60
+      }
+    },
+    "error": null,
+    "x_moss_request_id": "6c387fe65ae54503b2e40bf7b7e16c83"
+  },
+  {
+    "model": "deepseek/deepseek-v4.1-flash",
+    "prompt": "In one sentence, what is a TCP handshake? (run 1)",
+    "cache": "off",
+    "status": 200,
+    "ttft_ms": null,
+    "total_ms": 1300,
+    "text": "",
+    "usage": {
+      "prompt_tokens": 60,
+      "completion_tokens": 60,
+      "total_tokens": 120,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 60
+      }
+    },
+    "error": null,
+    "x_moss_request_id": "93fb0d42f4e0433c96534c9dd9bf0afa"
+  },
+  {
+    "model": "deepseek/deepseek-v4.1-flash",
+    "prompt": "In one sentence, what is a B-tree? (run 2)",
+    "cache": "off",
+    "status": 200,
+    "ttft_ms": null,
+    "total_ms": 2084,
+    "text": "",
+    "usage": {
+      "prompt_tokens": 59,
+      "completion_tokens": 60,
+      "total_tokens": 119,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 60
+      }
+    },
+    "error": null,
+    "x_moss_request_id": "b7eb2b1680684bdba04a5807a5b590ae"
+  },
+  {
+    "model": "deepseek/deepseek-v4.1-flash",
+    "prompt": "In one sentence, what is a garbage collection? (run 3)",
+    "cache": "off",
+    "status": 200,
+    "ttft_ms": null,
+    "total_ms": 1556,
+    "text": "",
+    "usage": {
+      "prompt_tokens": 59,
+      "completion_tokens": 60,
+      "total_tokens": 119,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 60
+      }
+    },
+    "error": null,
+    "x_moss_request_id": "e226bc81d703480594c5cbe06c80c4e9"
+  },
+  {
+    "model": "deepseek/deepseek-v4.1-flash",
+    "prompt": "In one sentence, what is a CAP theorem? (run 4)",
+    "cache": "off",
+    "status": 200,
+    "ttft_ms": null,
+    "total_ms": 1404,
+    "text": "",
+    "usage": {
+      "prompt_tokens": 59,
+      "completion_tokens": 60,
+      "total_tokens": 119,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 60
+      }
+    },
+    "error": null,
+    "x_moss_request_id": "d048ccef62fb40c8b52cedf669725393"
+  },
+  {
+    "model": "deepseek/deepseek-v4.1-flash",
+    "prompt": "In one sentence, what is a mutex? (run 5)",
+    "cache": "off",
+    "status": 200,
+    "ttft_ms": null,
+    "total_ms": 1091,
+    "text": "",
+    "usage": {
+      "prompt_tokens": 59,
+      "completion_tokens": 60,
+      "total_tokens": 119,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 60
+      }
+    },
+    "error": null,
+    "x_moss_request_id": "ad7d760303e746a895c0074379eb0307"
+  },
+  {
+    "model": "deepseek/deepseek-v4.1-flash",
+    "prompt": "In one sentence, what is a DNS? (run 6)",
+    "cache": "off",
+    "status": 200,
+    "ttft_ms": 1290,
+    "total_ms": 1321,
+    "text": "A DNS (Domain Name System) is the internet's directory service",
+    "usage": {
+      "prompt_tokens": 58,
+      "completion_tokens": 60,
+      "total_tokens": 118,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 46
+      }
+    },
+    "error": null,
+    "x_moss_request_id": "5757e9cdfb654e309440110ed01b049a"
+  },
+  {
+    "model": "deepseek/deepseek-v4.1-flash",
+    "prompt": "In one sentence, what is a Bloom filter? (run 7)",
+    "cache": "off",
+    "status": 200,
+    "ttft_ms": null,
+    "total_ms": 1667,
+    "text": "",
+    "usage": {
+      "prompt_tokens": 59,
+      "completion_tokens": 60,
+      "total_tokens": 119,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 60
+      }
+    },
+    "error": null,
+    "x_moss_request_id": "787691ac66a947c08986b44562362123"
+  },
+  {
+    "model": "deepseek/deepseek-v4.1-flash",
+    "prompt": "In one sentence, what is a gradient descent? (run 8)",
+    "cache": "off",
+    "status": 200,
+    "ttft_ms": null,
+    "total_ms": 1484,
+    "text": "",
+    "usage": {
+      "prompt_tokens": 59,
+      "completion_tokens": 60,
+      "total_tokens": 119,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 60
+      }
+    },
+    "error": null,
+    "x_moss_request_id": "4f4017bc0d294ed3bd6ef629606fb585"
+  },
+  {
+    "model": "deepseek/deepseek-v4.1-flash",
+    "prompt": "In one sentence, what is a TLS? (run 9)",
+    "cache": "off",
+    "status": 200,
+    "ttft_ms": 1464,
+    "total_ms": 1536,
+    "text": "TLS (Transport Layer Security) is a cryptographic protocol that provides encrypted and authenticated communication",
+    "usage": {
+      "prompt_tokens": 58,
+      "completion_tokens": 60,
+      "total_tokens": 118,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 42
+      }
+    },
+    "error": null,
+    "x_moss_request_id": "69861eb1e6c64d249e31b75c9c9db6ee"
+  },
+  {
+    "model": "deepseek/deepseek-v4.1-flash",
+    "prompt": "In one sentence, what is a load balancer? (run 10)",
+    "cache": "off",
+    "status": 200,
+    "ttft_ms": null,
+    "total_ms": 1322,
+    "text": "",
+    "usage": {
+      "prompt_tokens": 60,
+      "completion_tokens": 60,
+      "total_tokens": 120,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 60
+      }
+    },
+    "error": null,
+    "x_moss_request_id": "c974933f18b9482c9c2f2326e10f4bf0"
+  },
+  {
+    "model": "deepseek/deepseek-v4.1-flash",
+    "prompt": "In one sentence, what is a consistent hashing? (run 11)",
+    "cache": "off",
+    "status": 200,
+    "ttft_ms": null,
+    "total_ms": 1243,
+    "text": "",
+    "usage": {
+      "prompt_tokens": 60,
+      "completion_tokens": 60,
+      "total_tokens": 120,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 60
+      }
+    },
+    "error": null,
+    "x_moss_request_id": "0ce84a98600b4d8096b90b8780b8d2f2"
+  },
+  {
+    "model": "deepseek/deepseek-v4.1-flash",
+    "prompt": "In one sentence, what is a LRU cache? (run 12)",
+    "cache": "off",
+    "status": 200,
+    "ttft_ms": null,
+    "total_ms": 1403,
+    "text": "",
+    "usage": {
+      "prompt_tokens": 60,
+      "completion_tokens": 60,
+      "total_tokens": 120,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 60
+      }
+    },
+    "error": null,
+    "x_moss_request_id": "1f720b9c621943af8a8ed43c2db4a58a"
+  },
+  {
+    "model": "deepseek/deepseek-v4.1-flash",
+    "prompt": "In one sentence, what is a event loop? (run 13)",
+    "cache": "off",
+    "status": 200,
+    "ttft_ms": null,
+    "total_ms": 2045,
+    "text": "",
+    "usage": {
+      "prompt_tokens": 59,
+      "completion_tokens": 60,
+      "total_tokens": 119,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 60
+      }
+    },
+    "error": null,
+    "x_moss_request_id": "09e87fd8bff6410e9aae4458b3c59d1f"
+  },
+  {
+    "model": "deepseek/deepseek-v4.1-flash",
+    "prompt": "In one sentence, what is a vector database? (run 14)",
+    "cache": "off",
+    "status": 200,
+    "ttft_ms": 1310,
+    "total_ms": 1572,
+    "text": "A vector database is a data store designed to index and query high-dimensional vector embeddings, enabling fast similarity search (e.g., nearest",
+    "usage": {
+      "prompt_tokens": 59,
+      "completion_tokens": 60,
+      "total_tokens": 119,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 33
+      }
+    },
+    "error": null,
+    "x_moss_request_id": "f08d5c06e0d5409a884f7cf9226dbf13"
+  },
+  {
+    "model": "deepseek/deepseek-v4.1-flash",
+    "prompt": "In one sentence, what is a JWT? (run 15)",
+    "cache": "off",
+    "status": 200,
+    "ttft_ms": null,
+    "total_ms": 1114,
+    "text": "",
+    "usage": {
+      "prompt_tokens": 59,
+      "completion_tokens": 60,
+      "total_tokens": 119,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 60
+      }
+    },
+    "error": null,
+    "x_moss_request_id": "84c838a9157e4b6999d81ca9d03789bf"
+  },
+  {
+    "model": "deepseek/deepseek-v4.1-flash",
+    "prompt": "In one sentence, what is a rate limiter? (run 16)",
+    "cache": "off",
+    "status": 200,
+    "ttft_ms": 1170,
+    "total_ms": 1171,
+    "text": "A rate limiter is a mechanism that controls how many requests or operations",
+    "usage": {
+      "prompt_tokens": 60,
+      "completion_tokens": 60,
+      "total_tokens": 120,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 45
+      }
+    },
+    "error": null,
+    "x_moss_request_id": "b6797440b9de4056a84c9fe68fd6ad13"
+  },
+  {
+    "model": "deepseek/deepseek-v4.1-flash",
+    "prompt": "In one sentence, what is a Kafka? (run 17)",
+    "cache": "off",
+    "status": 200,
+    "ttft_ms": null,
+    "total_ms": 1198,
+    "text": "",
+    "usage": {
+      "prompt_tokens": 58,
+      "completion_tokens": 60,
+      "total_tokens": 118,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 60
+      }
+    },
+    "error": null,
+    "x_moss_request_id": "09c408a2f5bc4a8ea01422bc97b0ea03"
+  },
+  {
+    "model": "deepseek/deepseek-v4.1-flash",
+    "prompt": "In one sentence, what is a Raft? (run 18)",
+    "cache": "off",
+    "status": 200,
+    "ttft_ms": null,
+    "total_ms": 1455,
+    "text": "",
+    "usage": {
+      "prompt_tokens": 59,
+      "completion_tokens": 60,
+      "total_tokens": 119,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 60
+      }
+    },
+    "error": null,
+    "x_moss_request_id": "ac72926001be4abbb1d9b2c6bfe7893f"
+  },
+  {
+    "model": "deepseek/deepseek-v4.1-flash",
+    "prompt": "In one sentence, what is a CDN? (run 19)",
+    "cache": "off",
+    "status": 200,
+    "ttft_ms": null,
+    "total_ms": 1375,
+    "text": "",
+    "usage": {
+      "prompt_tokens": 59,
+      "completion_tokens": 60,
+      "total_tokens": 119,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 60
+      }
+    },
+    "error": null,
+    "x_moss_request_id": "9e16faae54be4d4d8777586f42a4628d"
+  },
+  {
+    "model": "moss/fastlane-1",
+    "prompt": "Name three prime numbers. nonce=1795620527",
+    "cache": "on",
+    "status": 200,
+    "ttft_ms": 479,
+    "total_ms": 527,
+    "text": "2, 3, and 5",
+    "usage": {
+      "prompt_tokens": 104,
+      "completion_tokens": 9,
+      "total_tokens": 113,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "error": null,
+    "x_moss_request_id": "bc4fbbbd0b3641ac80b2b8e35bf4e334"
+  },
+  {
+    "model": "moss/fastlane-1",
+    "prompt": "Name three prime numbers. nonce=1795620527",
+    "cache": "on",
+    "status": 200,
+    "ttft_ms": 522,
+    "total_ms": 523,
+    "text": "2, 3, and 5",
+    "usage": {
+      "prompt_tokens": 0,
+      "completion_tokens": 2,
+      "total_tokens": 2,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "error": null,
+    "x_moss_request_id": "40757de8c6d348efaac525d88f1d4b23"
+  },
+  {
+    "model": "openai/gpt-6-luna",
+    "prompt": "Name three prime numbers. nonce=1795620528",
+    "cache": "on",
+    "status": 200,
+    "ttft_ms": 1522,
+    "total_ms": 1559,
+    "text": "2, 3, 5.",
+    "usage": {
+      "prompt_tokens": 34,
+      "completion_tokens": 41,
+      "total_tokens": 75,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 27
+      }
+    },
+    "error": null,
+    "x_moss_request_id": "998d05f118f244fb99f56c8d628596e1"
+  },
+  {
+    "model": "openai/gpt-6-luna",
+    "prompt": "Name three prime numbers. nonce=1795620528",
+    "cache": "on",
+    "status": 200,
+    "ttft_ms": 525,
+    "total_ms": 526,
+    "text": "2, 3, 5.",
+    "usage": {
+      "prompt_tokens": 0,
+      "completion_tokens": 2,
+      "total_tokens": 2,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "error": null,
+    "x_moss_request_id": "2f8407f219ed42ec90ec7e200e47e051"
+  }
+]

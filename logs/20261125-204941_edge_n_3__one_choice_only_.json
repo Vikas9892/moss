@@ -1,0 +1,41 @@
+{
+  "request": {
+    "method": "POST",
+    "path": "/chat/completions",
+    "headers": {
+      "Authorization": "<redacted>"
+    },
+    "body": {
+      "model": "moss/fastlane-1",
+      "messages": [
+        {
+          "role": "user",
+          "content": "hi"
+        }
+      ],
+      "max_tokens": 5,
+      "n": 3
+    }
+  },
+  "status": 400,
+  "ms": 406,
+  "resp_headers": {
+    "Content-Length": "180",
+    "content-type": "application/json",
+    "date": "Wed, 25 Nov 2026 15:19:38 GMT",
+    "server": "uvicorn",
+    "vary": "Origin, Origin",
+    "via": "1.1 Caddy,1.1 Caddy, 1.1 google",
+    "x-moss-box": "g2a0e48",
+    "x-moss-request-id": "47fe931ee503498197a5803524eedc68",
+    "Alt-Svc": "clear"
+  },
+  "body": {
+    "error": {
+      "message": "n must be 1. This endpoint returns one choice.",
+      "type": "invalid_request_error",
+      "code": "invalid_request_error",
+      "request_id": "47fe931ee503498197a5803524eedc68"
+    }
+  }
+}

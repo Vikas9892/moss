@@ -1,0 +1,39 @@
+{
+  "request": {
+    "method": "POST",
+    "path": "/chat/completions",
+    "headers": {},
+    "body": {
+      "model": "moss/fastlane-1",
+      "messages": [
+        {
+          "role": "user",
+          "content": "hi"
+        }
+      ],
+      "max_tokens": 5
+    }
+  },
+  "status": 401,
+  "ms": 436,
+  "resp_headers": {
+    "Content-Length": "152",
+    "content-type": "application/json",
+    "date": "Wed, 25 Nov 2026 15:19:33 GMT",
+    "server": "uvicorn",
+    "vary": "Origin, Origin",
+    "via": "1.1 Caddy,1.1 Caddy,1.1 Caddy, 1.1 google",
+    "x-envoy-upstream-service-time": "1",
+    "x-moss-box": "gin001",
+    "x-moss-request-id": "45f644f6f31944b19de4e636ff607cab",
+    "Alt-Svc": "clear"
+  },
+  "body": {
+    "error": {
+      "message": "Missing bearer token",
+      "type": "authentication_error",
+      "code": "authentication_error",
+      "request_id": "45f644f6f31944b19de4e636ff607cab"
+    }
+  }
+}

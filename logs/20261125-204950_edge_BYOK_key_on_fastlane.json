@@ -1,0 +1,68 @@
+{
+  "request": {
+    "method": "POST",
+    "path": "/chat/completions",
+    "headers": {
+      "Authorization": "<redacted>",
+      "X-Moss-Provider-Key": "<redacted>"
+    },
+    "body": {
+      "model": "moss/fastlane-1",
+      "messages": [
+        {
+          "role": "user",
+          "content": "hi"
+        }
+      ],
+      "max_tokens": 5
+    }
+  },
+  "status": 200,
+  "ms": 525,
+  "resp_headers": {
+    "Content-Length": "421",
+    "content-type": "application/json",
+    "date": "Wed, 25 Nov 2026 15:19:46 GMT",
+    "server": "uvicorn",
+    "vary": "Origin, Origin",
+    "via": "1.1 Caddy,1.1 Caddy, 1.1 google",
+    "x-moss-box": "g2a0e48",
+    "x-moss-request-id": "7786041fa5b04ed78463a722f88c527d",
+    "x-moss-retrieve-ms": "0.0",
+    "x-ratelimit-limit-requests": "120",
+    "x-ratelimit-limit-tokens": "600000",
+    "x-ratelimit-remaining-requests": "9",
+    "x-ratelimit-remaining-tokens": "599904",
+    "x-ratelimit-reset-requests": "1s",
+    "x-ratelimit-reset-tokens": "1s",
+    "Alt-Svc": "clear"
+  },
+  "body": {
+    "id": "chatcmpl-7786041fa5b04ed78463a722f88c527d",
+    "object": "chat.completion",
+    "created": 1795619987,
+    "model": "moss/fastlane-1",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "Hi there! How can"
+        },
+        "finish_reason": "length"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 88,
+      "completion_tokens": 5,
+      "total_tokens": 93,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    }
+  }
+}

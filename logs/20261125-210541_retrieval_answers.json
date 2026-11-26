@@ -1,0 +1,1058 @@
+[
+  {
+    "model": "moss/fastlane-1",
+    "q": "Who founded Zorblax Kites?",
+    "indexed": false,
+    "status": 200,
+    "ms": 711,
+    "text": "I cannot provide an answer because Zorblax Kites appears to be a fictional or non-existent entity.",
+    "retrieve_ms": "0.0",
+    "usage": {
+      "prompt_tokens": 102,
+      "completion_tokens": 23,
+      "total_tokens": 125,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "error": null,
+    "expect": "meera",
+    "correct": false
+  },
+  {
+    "model": "moss/fastlane-1",
+    "q": "How much does the Stormrider cost?",
+    "indexed": false,
+    "status": 200,
+    "ms": 587,
+    "text": "The Stormrider costs $24,000.",
+    "retrieve_ms": "0.0",
+    "usage": {
+      "prompt_tokens": 102,
+      "completion_tokens": 14,
+      "total_tokens": 116,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "error": null,
+    "expect": "4,750",
+    "correct": false
+  },
+  {
+    "model": "moss/fastlane-1",
+    "q": "How long is Zorblax's return window?",
+    "indexed": false,
+    "status": 200,
+    "ms": 687,
+    "text": "I cannot verify the specific return window for Zorblax, as it is not a widely recognized brand with publicly available standard policies in general knowledge bases.",
+    "retrieve_ms": "0.0",
+    "usage": {
+      "prompt_tokens": 104,
+      "completion_tokens": 32,
+      "total_tokens": 136,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "error": null,
+    "expect": "45",
+    "correct": false
+  },
+  {
+    "model": "moss/fastlane-1",
+    "q": "Which day is Zorblax support closed?",
+    "indexed": false,
+    "status": 200,
+    "ms": 614,
+    "text": "I do not have any information about \"Zorblax support\" or its closure days.",
+    "retrieve_ms": "0.0",
+    "usage": {
+      "prompt_tokens": 103,
+      "completion_tokens": 20,
+      "total_tokens": 123,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "error": null,
+    "expect": "monday",
+    "correct": false
+  },
+  {
+    "model": "moss/fastlane-1",
+    "q": "How many SkyPoints do I earn per 100 rupees?",
+    "indexed": false,
+    "status": 200,
+    "ms": 587,
+    "text": "You earn 5 SkyPoints for every 100 rupees spent at SkyPlex.",
+    "retrieve_ms": "0.0",
+    "usage": {
+      "prompt_tokens": 108,
+      "completion_tokens": 21,
+      "total_tokens": 129,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "error": null,
+    "expect": "7",
+    "correct": false
+  },
+  {
+    "model": "moss/fastlane-1",
+    "q": "How long does shipping to Nepal take?",
+    "indexed": false,
+    "status": 200,
+    "ms": 557,
+    "text": "Shipping to Nepal typically takes 10 to 20 business days.",
+    "retrieve_ms": "0.0",
+    "usage": {
+      "prompt_tokens": 101,
+      "completion_tokens": 16,
+      "total_tokens": 117,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "error": null,
+    "expect": "9",
+    "correct": false
+  },
+  {
+    "model": "moss/fastlane-1",
+    "q": "How much does the Featherlite weigh?",
+    "indexed": false,
+    "status": 200,
+    "ms": 628,
+    "text": "The Featherlite 2611B weighs approximately 1,995 pounds.",
+    "retrieve_ms": "0.0",
+    "usage": {
+      "prompt_tokens": 101,
+      "completion_tokens": 20,
+      "total_tokens": 121,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "error": null,
+    "expect": "112",
+    "correct": false
+  },
+  {
+    "model": "moss/fastlane-1",
+    "q": "How long is the frame warranty?",
+    "indexed": false,
+    "status": 200,
+    "ms": 647,
+    "text": "I cannot answer that question without knowing the specific product or brand you are referring to, as frame warranty lengths vary by manufacturer.",
+    "retrieve_ms": "0.0",
+    "usage": {
+      "prompt_tokens": 100,
+      "completion_tokens": 26,
+      "total_tokens": 126,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "error": null,
+    "expect": "18",
+    "correct": false
+  },
+  {
+    "model": "moss/fastlane-1",
+    "q": "Where is the Zorblax warehouse?",
+    "indexed": false,
+    "status": 200,
+    "ms": 578,
+    "text": "There is no such thing as a Zorblax warehouse.",
+    "retrieve_ms": "0.0",
+    "usage": {
+      "prompt_tokens": 102,
+      "completion_tokens": 14,
+      "total_tokens": 116,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "error": null,
+    "expect": "tiruppur",
+    "correct": false
+  },
+  {
+    "model": "moss/fastlane-1",
+    "q": "What subject line do I use to reset my password?",
+    "indexed": false,
+    "status": 200,
+    "ms": 491,
+    "text": "The standard subject line to use is \"Password Reset.\"",
+    "retrieve_ms": "0.0",
+    "usage": {
+      "prompt_tokens": 104,
+      "completion_tokens": 12,
+      "total_tokens": 116,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "error": null,
+    "expect": "kite-reset",
+    "correct": false
+  },
+  {
+    "model": "moss/fastlane-1",
+    "q": "Does Zorblax ship to Bhutan?",
+    "indexed": false,
+    "status": 200,
+    "ms": 585,
+    "text": "I cannot verify the shipping policies of Zorblax as it is not a recognized commercial entity in available public records.",
+    "retrieve_ms": "0.0",
+    "usage": {
+      "prompt_tokens": 103,
+      "completion_tokens": 25,
+      "total_tokens": 128,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "error": null,
+    "expect": "no",
+    "correct": true
+  },
+  {
+    "model": "moss/fastlane-1",
+    "q": "Who founded Zorblax Kites?",
+    "indexed": true,
+    "status": 200,
+    "ms": 5591,
+    "text": "Meera Tandon founded Zorblax Kites.",
+    "retrieve_ms": "4300.2",
+    "usage": {
+      "prompt_tokens": 453,
+      "completion_tokens": 13,
+      "total_tokens": 466,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "error": null,
+    "expect": "meera",
+    "correct": true
+  },
+  {
+    "model": "moss/fastlane-1",
+    "q": "How much does the Stormrider cost?",
+    "indexed": true,
+    "status": 200,
+    "ms": 617,
+    "text": "The Zorblax Stormrider kite costs 4,750 rupees.",
+    "retrieve_ms": "9.8",
+    "usage": {
+      "prompt_tokens": 454,
+      "completion_tokens": 20,
+      "total_tokens": 474,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "error": null,
+    "expect": "4,750",
+    "correct": true
+  },
+  {
+    "model": "moss/fastlane-1",
+    "q": "How long is Zorblax's return window?",
+    "indexed": true,
+    "status": 200,
+    "ms": 615,
+    "text": "Zorblax's return window is 45 days.",
+    "retrieve_ms": "10.8",
+    "usage": {
+      "prompt_tokens": 440,
+      "completion_tokens": 14,
+      "total_tokens": 454,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "error": null,
+    "expect": "45",
+    "correct": true
+  },
+  {
+    "model": "moss/fastlane-1",
+    "q": "Which day is Zorblax support closed?",
+    "indexed": true,
+    "status": 200,
+    "ms": 527,
+    "text": "Zorblax support is closed on Mondays.",
+    "retrieve_ms": "9.6",
+    "usage": {
+      "prompt_tokens": 447,
+      "completion_tokens": 11,
+      "total_tokens": 458,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "error": null,
+    "expect": "monday",
+    "correct": true
+  },
+  {
+    "model": "moss/fastlane-1",
+    "q": "How many SkyPoints do I earn per 100 rupees?",
+    "indexed": true,
+    "status": 200,
+    "ms": 558,
+    "text": "You earn 7 SkyPoints per 100 rupees spent.",
+    "retrieve_ms": "11.2",
+    "usage": {
+      "prompt_tokens": 460,
+      "completion_tokens": 16,
+      "total_tokens": 476,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "error": null,
+    "expect": "7",
+    "correct": true
+  },
+  {
+    "model": "moss/fastlane-1",
+    "q": "How long does shipping to Nepal take?",
+    "indexed": true,
+    "status": 200,
+    "ms": 528,
+    "text": "Shipping to Nepal takes 9 business days.",
+    "retrieve_ms": "9.3",
+    "usage": {
+      "prompt_tokens": 449,
+      "completion_tokens": 10,
+      "total_tokens": 459,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "error": null,
+    "expect": "9",
+    "correct": true
+  },
+  {
+    "model": "moss/fastlane-1",
+    "q": "How much does the Featherlite weigh?",
+    "indexed": true,
+    "status": 200,
+    "ms": 572,
+    "text": "The Zorblax Featherlite kite weighs 112 grams.",
+    "retrieve_ms": "10.4",
+    "usage": {
+      "prompt_tokens": 452,
+      "completion_tokens": 16,
+      "total_tokens": 468,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "error": null,
+    "expect": "112",
+    "correct": true
+  },
+  {
+    "model": "moss/fastlane-1",
+    "q": "How long is the frame warranty?",
+    "indexed": true,
+    "status": 200,
+    "ms": 569,
+    "text": "The Zorblax frame warranty lasts for 18 months.",
+    "retrieve_ms": "10.0",
+    "usage": {
+      "prompt_tokens": 441,
+      "completion_tokens": 15,
+      "total_tokens": 456,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "error": null,
+    "expect": "18",
+    "correct": true
+  },
+  {
+    "model": "moss/fastlane-1",
+    "q": "Where is the Zorblax warehouse?",
+    "indexed": true,
+    "status": 200,
+    "ms": 569,
+    "text": "The Zorblax warehouse is located in Tiruppur.",
+    "retrieve_ms": "9.8",
+    "usage": {
+      "prompt_tokens": 449,
+      "completion_tokens": 14,
+      "total_tokens": 463,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "error": null,
+    "expect": "tiruppur",
+    "correct": true
+  },
+  {
+    "model": "moss/fastlane-1",
+    "q": "What subject line do I use to reset my password?",
+    "indexed": true,
+    "status": 200,
+    "ms": 558,
+    "text": "Use the subject line 'KITE-RESET'.",
+    "retrieve_ms": "10.9",
+    "usage": {
+      "prompt_tokens": 455,
+      "completion_tokens": 11,
+      "total_tokens": 466,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "error": null,
+    "expect": "kite-reset",
+    "correct": true
+  },
+  {
+    "model": "moss/fastlane-1",
+    "q": "Does Zorblax ship to Bhutan?",
+    "indexed": true,
+    "status": 200,
+    "ms": 581,
+    "text": "No, Zorblax only ships to India, Sri Lanka, and Nepal.",
+    "retrieve_ms": "9.8",
+    "usage": {
+      "prompt_tokens": 445,
+      "completion_tokens": 18,
+      "total_tokens": 463,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "error": null,
+    "expect": "no",
+    "correct": true
+  },
+  {
+    "model": "anthropic/claude-haiku-5.5",
+    "q": "Who founded Zorblax Kites?",
+    "indexed": false,
+    "status": 200,
+    "ms": 1672,
+    "text": "I don't have reliable information about a company called Zorblax Kites, so I can't say who founded it.",
+    "retrieve_ms": "0.0",
+    "usage": {
+      "prompt_tokens": 50,
+      "completion_tokens": 33,
+      "total_tokens": 83,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "error": null,
+    "expect": "meera",
+    "correct": false
+  },
+  {
+    "model": "anthropic/claude-haiku-5.5",
+    "q": "How much does the Stormrider cost?",
+    "indexed": false,
+    "status": 200,
+    "ms": 1643,
+    "text": "I don't have any information about a product called the \"Stormrider,\" so I can't tell you its price, but if you share where you saw it, I can help you figure out how to check the current cost.",
+    "retrieve_ms": "0.0",
+    "usage": {
+      "prompt_tokens": 49,
+      "completion_tokens": 55,
+      "total_tokens": 104,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "error": null,
+    "expect": "4,750",
+    "correct": false
+  },
+  {
+    "model": "anthropic/claude-haiku-5.5",
+    "q": "How long is Zorblax's return window?",
+    "indexed": false,
+    "status": 200,
+    "ms": 1332,
+    "text": "I don't have any information about a company or product called \"Zorblax,\" so I can't tell you its return window.",
+    "retrieve_ms": "0.0",
+    "usage": {
+      "prompt_tokens": 49,
+      "completion_tokens": 32,
+      "total_tokens": 81,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "error": null,
+    "expect": "45",
+    "correct": false
+  },
+  {
+    "model": "anthropic/claude-haiku-5.5",
+    "q": "Which day is Zorblax support closed?",
+    "indexed": false,
+    "status": 200,
+    "ms": 1336,
+    "text": "I don't have any information about a company called Zorblax or its support hours, so I can't say which day its support is closed.",
+    "retrieve_ms": "0.0",
+    "usage": {
+      "prompt_tokens": 50,
+      "completion_tokens": 36,
+      "total_tokens": 86,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "error": null,
+    "expect": "monday",
+    "correct": false
+  },
+  {
+    "model": "anthropic/claude-haiku-5.5",
+    "q": "How many SkyPoints do I earn per 100 rupees?",
+    "indexed": false,
+    "status": 200,
+    "ms": 1531,
+    "text": "I don't have any details about a \"SkyPoints\" program, so I can't tell you its earn rate. Could you share which company or card offers SkyPoints, or check the program's terms on its official website or app?",
+    "retrieve_ms": "0.0",
+    "usage": {
+      "prompt_tokens": 57,
+      "completion_tokens": 64,
+      "total_tokens": 121,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "error": null,
+    "expect": "7",
+    "correct": false
+  },
+  {
+    "model": "anthropic/claude-haiku-5.5",
+    "q": "How long does shipping to Nepal take?",
+    "indexed": false,
+    "status": 200,
+    "ms": 1224,
+    "text": "I don't have access to any specific shipping carrier or store details, so I can't give you an exact timeframe, but international shipping to Nepal typically takes about 1 to 3 weeks depending on the service and customs clearance.",
+    "retrieve_ms": "0.0",
+    "usage": {
+      "prompt_tokens": 50,
+      "completion_tokens": 72,
+      "total_tokens": 122,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "error": null,
+    "expect": "9",
+    "correct": false
+  },
+  {
+    "model": "anthropic/claude-haiku-5.5",
+    "q": "How much does the Featherlite weigh?",
+    "indexed": false,
+    "status": 200,
+    "ms": 1283,
+    "text": "I'm not sure which Featherlite you mean, since the company makes many trailers, saddles, and other products with different weights, so could you tell me the model or product?",
+    "retrieve_ms": "0.0",
+    "usage": {
+      "prompt_tokens": 50,
+      "completion_tokens": 51,
+      "total_tokens": 101,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "error": null,
+    "expect": "112",
+    "correct": false
+  },
+  {
+    "model": "anthropic/claude-haiku-5.5",
+    "q": "How long is the frame warranty?",
+    "indexed": false,
+    "status": 200,
+    "ms": 1480,
+    "text": "I don't know which frame you're asking about, since I have no details on the product or brand. If you tell me the manufacturer and model, I can share what I know about its warranty, though you should confirm current terms with the seller or manufacturer.",
+    "retrieve_ms": "0.0",
+    "usage": {
+      "prompt_tokens": 47,
+      "completion_tokens": 73,
+      "total_tokens": 120,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "error": null,
+    "expect": "18",
+    "correct": false
+  },
+  {
+    "model": "anthropic/claude-haiku-5.5",
+    "q": "Where is the Zorblax warehouse?",
+    "indexed": false,
+    "status": 200,
+    "ms": 1628,
+    "text": "I don't have any information about a \"Zorblax warehouse,\" and it isn't a place I can verify, so I can't tell you its location.",
+    "retrieve_ms": "0.0",
+    "usage": {
+      "prompt_tokens": 51,
+      "completion_tokens": 43,
+      "total_tokens": 94,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "error": null,
+    "expect": "tiruppur",
+    "correct": false
+  },
+  {
+    "model": "anthropic/claude-haiku-5.5",
+    "q": "What subject line do I use to reset my password?",
+    "indexed": false,
+    "status": 200,
+    "ms": 1211,
+    "text": "I don't have any information about your specific account or the service you're using, so I can't say what subject line its password reset uses; check the reset email or the service's help page for that.",
+    "retrieve_ms": "0.0",
+    "usage": {
+      "prompt_tokens": 50,
+      "completion_tokens": 50,
+      "total_tokens": 100,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "error": null,
+    "expect": "kite-reset",
+    "correct": false
+  },
+  {
+    "model": "anthropic/claude-haiku-5.5",
+    "q": "Does Zorblax ship to Bhutan?",
+    "indexed": false,
+    "status": 200,
+    "ms": 1447,
+    "text": "I don't have any information about a company called Zorblax or its shipping policies, so I can't confirm whether it ships to Bhutan; please check the company's website or contact them directly.",
+    "retrieve_ms": "0.0",
+    "usage": {
+      "prompt_tokens": 53,
+      "completion_tokens": 57,
+      "total_tokens": 110,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "error": null,
+    "expect": "no",
+    "correct": false
+  },
+  {
+    "model": "anthropic/claude-haiku-5.5",
+    "q": "Who founded Zorblax Kites?",
+    "indexed": true,
+    "status": 200,
+    "ms": 1074,
+    "text": "Zorblax Kites was founded by Meera Tandon.",
+    "retrieve_ms": "9.6",
+    "usage": {
+      "prompt_tokens": 330,
+      "completion_tokens": 22,
+      "total_tokens": 352,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "error": null,
+    "expect": "meera",
+    "correct": true
+  },
+  {
+    "model": "anthropic/claude-haiku-5.5",
+    "q": "How much does the Stormrider cost?",
+    "indexed": true,
+    "status": 200,
+    "ms": 1144,
+    "text": "The Zorblax Stormrider kite costs 4,750 rupees.",
+    "retrieve_ms": "9.9",
+    "usage": {
+      "prompt_tokens": 338,
+      "completion_tokens": 26,
+      "total_tokens": 364,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "error": null,
+    "expect": "4,750",
+    "correct": true
+  },
+  {
+    "model": "anthropic/claude-haiku-5.5",
+    "q": "How long is Zorblax's return window?",
+    "indexed": true,
+    "status": 200,
+    "ms": 925,
+    "text": "Zorblax's return window is 45 days, but only if the kite string is unused.",
+    "retrieve_ms": "10.6",
+    "usage": {
+      "prompt_tokens": 312,
+      "completion_tokens": 27,
+      "total_tokens": 339,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "error": null,
+    "expect": "45",
+    "correct": true
+  },
+  {
+    "model": "anthropic/claude-haiku-5.5",
+    "q": "Which day is Zorblax support closed?",
+    "indexed": true,
+    "status": 200,
+    "ms": 1063,
+    "text": "Zorblax support is closed on Mondays.",
+    "retrieve_ms": "10.0",
+    "usage": {
+      "prompt_tokens": 329,
+      "completion_tokens": 17,
+      "total_tokens": 346,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "error": null,
+    "expect": "monday",
+    "correct": true
+  },
+  {
+    "model": "anthropic/claude-haiku-5.5",
+    "q": "How many SkyPoints do I earn per 100 rupees?",
+    "indexed": true,
+    "status": 200,
+    "ms": 1008,
+    "text": "You earn 7 SkyPoints for every 100 rupees you spend.",
+    "retrieve_ms": "10.9",
+    "usage": {
+      "prompt_tokens": 339,
+      "completion_tokens": 26,
+      "total_tokens": 365,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "error": null,
+    "expect": "7",
+    "correct": true
+  },
+  {
+    "model": "anthropic/claude-haiku-5.5",
+    "q": "How long does shipping to Nepal take?",
+    "indexed": true,
+    "status": 200,
+    "ms": 1373,
+    "text": "Shipping to Nepal takes 9 business days.",
+    "retrieve_ms": "9.6",
+    "usage": {
+      "prompt_tokens": 339,
+      "completion_tokens": 19,
+      "total_tokens": 358,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "error": null,
+    "expect": "9",
+    "correct": true
+  },
+  {
+    "model": "anthropic/claude-haiku-5.5",
+    "q": "How much does the Featherlite weigh?",
+    "indexed": true,
+    "status": 200,
+    "ms": 1060,
+    "text": "The Featherlite weighs 112 grams.",
+    "retrieve_ms": "9.2",
+    "usage": {
+      "prompt_tokens": 330,
+      "completion_tokens": 17,
+      "total_tokens": 347,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "error": null,
+    "expect": "112",
+    "correct": true
+  },
+  {
+    "model": "anthropic/claude-haiku-5.5",
+    "q": "How long is the frame warranty?",
+    "indexed": true,
+    "status": 200,
+    "ms": 1338,
+    "text": "The Zorblax frame warranty lasts 18 months.",
+    "retrieve_ms": "9.5",
+    "usage": {
+      "prompt_tokens": 318,
+      "completion_tokens": 21,
+      "total_tokens": 339,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "error": null,
+    "expect": "18",
+    "correct": true
+  },
+  {
+    "model": "anthropic/claude-haiku-5.5",
+    "q": "Where is the Zorblax warehouse?",
+    "indexed": true,
+    "status": 200,
+    "ms": 974,
+    "text": "The Zorblax warehouse is in Tiruppur.",
+    "retrieve_ms": "9.7",
+    "usage": {
+      "prompt_tokens": 336,
+      "completion_tokens": 21,
+      "total_tokens": 357,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "error": null,
+    "expect": "tiruppur",
+    "correct": true
+  },
+  {
+    "model": "anthropic/claude-haiku-5.5",
+    "q": "What subject line do I use to reset my password?",
+    "indexed": true,
+    "status": 200,
+    "ms": 1497,
+    "text": "Use the subject line \"KITE-RESET\" when emailing reset@zorblax.example.",
+    "retrieve_ms": "10.5",
+    "usage": {
+      "prompt_tokens": 335,
+      "completion_tokens": 31,
+      "total_tokens": 366,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "error": null,
+    "expect": "kite-reset",
+    "correct": true
+  },
+  {
+    "model": "anthropic/claude-haiku-5.5",
+    "q": "Does Zorblax ship to Bhutan?",
+    "indexed": true,
+    "status": 200,
+    "ms": 1219,
+    "text": "No, Zorblax ships only to India, Sri Lanka and Nepal, so I don't know of any shipping to Bhutan.",
+    "retrieve_ms": "9.6",
+    "usage": {
+      "prompt_tokens": 335,
+      "completion_tokens": 45,
+      "total_tokens": 380,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      }
+    },
+    "error": null,
+    "expect": "no",
+    "correct": true
+  }
+]

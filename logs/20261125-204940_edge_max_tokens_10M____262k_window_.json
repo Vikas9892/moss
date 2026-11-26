@@ -1,0 +1,47 @@
+{
+  "request": {
+    "method": "POST",
+    "path": "/chat/completions",
+    "headers": {
+      "Authorization": "<redacted>"
+    },
+    "body": {
+      "model": "moss/fastlane-1",
+      "messages": [
+        {
+          "role": "user",
+          "content": "hi"
+        }
+      ],
+      "max_tokens": 10000000
+    }
+  },
+  "status": 400,
+  "ms": 437,
+  "resp_headers": {
+    "Content-Length": "275",
+    "content-type": "application/json",
+    "date": "Wed, 25 Nov 2026 15:19:37 GMT",
+    "server": "uvicorn",
+    "vary": "Origin, Origin",
+    "via": "1.1 Caddy,1.1 Caddy, 1.1 google",
+    "x-moss-box": "g2a0e48",
+    "x-moss-request-id": "a3fc147e32a147afb846a61cebb3b5f4",
+    "x-moss-retrieve-ms": "0.0",
+    "x-ratelimit-limit-requests": "120",
+    "x-ratelimit-limit-tokens": "600000",
+    "x-ratelimit-remaining-requests": "8",
+    "x-ratelimit-remaining-tokens": "599904",
+    "x-ratelimit-reset-requests": "1s",
+    "x-ratelimit-reset-tokens": "1s",
+    "Alt-Svc": "clear"
+  },
+  "body": {
+    "error": {
+      "message": "max_tokens=10000000 cannot be greater than max_model_len=262144. Please request fewer output tokens. (parameter=max_tokens, value=10000000)",
+      "type": "invalid_request_error",
+      "code": "context_length_exceeded",
+      "request_id": "a3fc147e32a147afb846a61cebb3b5f4"
+    }
+  }
+}

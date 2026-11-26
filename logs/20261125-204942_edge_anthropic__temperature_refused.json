@@ -1,0 +1,40 @@
+{
+  "request": {
+    "method": "POST",
+    "path": "/chat/completions",
+    "headers": {
+      "Authorization": "<redacted>"
+    },
+    "body": {
+      "model": "anthropic/claude-haiku-5.5",
+      "messages": [
+        {
+          "role": "user",
+          "content": "hi"
+        }
+      ],
+      "max_tokens": 5,
+      "temperature": 0.2
+    }
+  },
+  "status": 400,
+  "ms": 422,
+  "resp_headers": {
+    "Content-Length": "228",
+    "content-type": "application/json",
+    "date": "Wed, 25 Nov 2026 15:19:39 GMT",
+    "server": "uvicorn",
+    "vary": "Origin",
+    "via": "1.1 Caddy, 1.1 google",
+    "x-moss-request-id": "d87daa63ff6d4051a4b3c4013c20beec",
+    "Alt-Svc": "clear"
+  },
+  "body": {
+    "error": {
+      "message": "temperature is not supported for model anthropic/claude-haiku-5.5. Remove it from the request.",
+      "type": "invalid_request_error",
+      "code": "unsupported_parameter",
+      "request_id": "d87daa63ff6d4051a4b3c4013c20beec"
+    }
+  }
+}

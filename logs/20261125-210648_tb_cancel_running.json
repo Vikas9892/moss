@@ -1,0 +1,75 @@
+{
+  "request": {
+    "method": "POST",
+    "path": "/tasks/task_f0d75fbbc53c4712887655ef1b65f5c4/cancel",
+    "headers": {
+      "Authorization": "<redacted>"
+    },
+    "body": null
+  },
+  "status": 200,
+  "ms": 747,
+  "resp_headers": {
+    "Content-Length": "1077",
+    "content-type": "application/json",
+    "date": "Wed, 25 Nov 2026 15:36:45 GMT",
+    "server": "uvicorn",
+    "vary": "Origin",
+    "via": "1.1 Caddy, 1.1 google",
+    "x-moss-request-id": "841d973701474a2f9821493b1ada6fa3",
+    "Alt-Svc": "clear"
+  },
+  "body": {
+    "id": "task_f0d75fbbc53c4712887655ef1b65f5c4",
+    "object": "task",
+    "status": "running",
+    "title": "List book titles from books.toscrape.com",
+    "goal": "Browse books.toscrape.com and list every book title on the first 5 pages.",
+    "environment": {
+      "type": "browser",
+      "start_url": "https://example.com"
+    },
+    "output_schema": null,
+    "limits": {
+      "max_cost_usd": 0.25,
+      "max_runtime_seconds": 600
+    },
+    "model": "moss-fast",
+    "effort": "medium",
+    "metadata": null,
+    "byok": false,
+    "result": null,
+    "verification": null,
+    "usage": {
+      "cost": {
+        "model_usd": 0.0,
+        "total_usd": 0.0,
+        "browser_usd": null,
+        "traffic_usd": null
+      },
+      "steps": 0,
+      "cost_usd": 0.0,
+      "model_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "browser_minutes": 0.04,
+      "browser_seconds": 2,
+      "browser_traffic_mb": null,
+      "cached_input_tokens": 0
+    },
+    "error": null,
+    "trace_available": false,
+    "video_available": false,
+    "video_state": "pending",
+    "live_url": null,
+    "cancel_requested": true,
+    "created_at": "2026-11-25T15:36:34.388582+00:00",
+    "started_at": "2026-11-25T15:36:34.403229+00:00",
+    "finished_at": null,
+    "files_expire_at": null,
+    "zero_data_retention": false,
+    "content_expires_at": null,
+    "content_deleted_at": null,
+    "webhook": null
+  }
+}
